@@ -4,7 +4,7 @@ import time
 
 def __func_execution(delay, function, args=()):
     time.sleep(delay)
-    Thread(target=function, args=args).start()
+    function(*args)
 
 
 def exec_later(delay, function, args=()):
