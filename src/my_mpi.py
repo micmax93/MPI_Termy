@@ -1,14 +1,12 @@
 from mpi4py import MPI
 
-_MSG_TAG = 8
+
+def mpi_send(target, data, tag=0):
+    MPI.COMM_WORLD.send(data, target, tag)
 
 
-def mpi_send(target, data):
-    MPI.COMM_WORLD.send(data, target, _MSG_TAG)
-
-
-def mpi_recv(source):
-    return MPI.COMM_WORLD.recv(None, source, _MSG_TAG)
+def mpi_recv(source=MPI.ANY_SOURCE, tag=MPI.ANY_TAG):
+    return MPI.COMM_WORLD.recv(None, source, tag)
 
 
 def mpi_rank():
@@ -17,3 +15,7 @@ def mpi_rank():
 
 def mpi_count():
     return MPI.COMM_WORLD.Get_size()
+
+
+def mpi_bcast(data):
+    MPI.COMM_WORLD.bcast(data, mpi_rank())
