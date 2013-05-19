@@ -18,4 +18,4 @@ def mpi_count():
 
 
 def mpi_bcast(data):
-    MPI.COMM_WORLD.bcast(data, mpi_rank())
+    MPI.COMM_WORLD.bcast(data)

@@ -1,31 +1,72 @@
 from my_mpi import *
 from utils import exec_later
 
-rank = mpi_rank()
+
+def say(*args):
+    print(mpi_rank(), ': ', *args, sep='')
 
 
-def my_send(str):
-    print(rank, ".2: Awake", sep='')
-    mpi_send(target=1, data=str)
-    print(rank, '.2: Comm send "', str, '"', sep='')
+class LamportQueue:
+    def __init__(self, name):
+        self.name = name
+        self.confirmations = 0
+        self.state = 'idle'
+        self.waiting_set = []
+
+    def send_request(self):
+        rank = mpi_rank()
+        data = {'cmd': 'request', 'rank': rank, 'name': self.name}
+        self.state = 'waiting'
+        self.confirmations = 0
+        mpi_send(1 - rank, data)  # todo: broadcast
+        say("Request sent ", data)
+
+    def send_confirmation(self, target):
+        rank = mpi_rank()
+        data = {'cmd': 'allowed', 'rank': rank, 'name': self.name}
+        mpi_send(target, data)
+        say("Confirmation sent to ", target)
+
+    def exit_critical(self):
+        say("Exiting critical section")
+        self.state = 'idle'
+        for e in self.waiting_set:
+            self.send_confirmation(e)
+        self.waiting_set = []
+
+    def critical_section(self):
+        #kod sekcji krytycznej
+        say("Entering critical section")
+        exec_later(2, LamportQueue.exit_critical, [self])
+
+    def on_confirmation(self):
+        self.confirmations += 1
+        say("Confirmation received - ", self.confirmations, ' out of ', mpi_count() - 1)
+        if self.confirmations == mpi_count() - 1:
+            self.state = 'active'
+            self.critical_section()
+
+    def on_request(self, sender):
+        say("Received request from ", sender)
+        if self.state == 'idle':
+            self.send_confirmation(sender)
+        elif self.state == 'waiting' and mpi_rank() > sender:
+            self.send_confirmation(sender)
+        else:
+            self.waiting_set.append(sender)
 
 
 if __name__ == '__main__':
-    print("My rank is ", rank, sep='')
+    while mpi_count() < 2:
+        pass
+    q = LamportQueue("kolejka")
+    say("Requesting critical section")
+    q.send_request()
 
-    if rank == 0:
-
-        print(rank, ".2: Going to sleep", sep='')
-        exec_later(delay=3, function=my_send, args=["Witam", ])
-
-        print(rank, ": Waiting for comm", sep='')
-        str = mpi_recv(source=1)
-        print(rank, ': Recieved comm "', str, '"', sep='')
-
-    elif rank == 1:
-        print(rank, ": Waiting for comm", sep='')
-        str = mpi_recv(source=0)
-        print(rank, ': Recieved comm "', str, '"', sep='')
-        str += ", jestem Janusz"
-        mpi_send(target=0, data=str)
-        print(rank, ': Comm send "', str, '"', sep='')
+    while True:
+        data = mpi_recv()
+        #say("Received com ", data)
+        if data['cmd'] == 'request':
+            q.on_request(data['rank'])
+        elif data['cmd'] == 'allowed':
+            q.on_confirmation()
