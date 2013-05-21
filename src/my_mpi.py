@@ -17,5 +17,11 @@ def mpi_count():
     return MPI.COMM_WORLD.Get_size()
 
 
-def mpi_bcast(data):
-    MPI.COMM_WORLD.bcast(data)
+def mpi_bcast(data, tag=0):
+    for r in range(0, mpi_count()):
+        if r != mpi_rank():
+            mpi_send(r, data, tag)
+
+
+def mpi_barrier():
+    MPI.COMM_WORLD.barrier()
