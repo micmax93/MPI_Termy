@@ -5,13 +5,10 @@ class LockersMonitor:
     """
     Locker monitor keeps locker room's states and enabled to retrieve them.
     """
-    SEX_MALE = 'M'
-    SEX_FEMALE = 'F'
-
     lockers = []
 
     def __init__(self):
-        self.lockers = [[self.SEX_FEMALE, 0], [self.SEX_FEMALE, 0], [self.SEX_FEMALE, 0]]
+        self.lockers = [[SEX_FEMALE, 0], [SEX_FEMALE, 0], [SEX_FEMALE, 0]]  # ladies first ;)
 
     # Enter the locker room #num by person of given #sex
     def locker_in(self, num, sex):
