@@ -58,7 +58,7 @@ class LamportQueue:
             self.state = 'active'
             self.critical_section()
 
-    def on_request(self, sender):
+    def on_request(self, sender, data):
         #say("Received request from ", sender)
         if self.state == 'idle':
             self.send_confirmation(sender)

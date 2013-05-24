@@ -8,12 +8,12 @@ class LockersMonitor:
     lockers = []
 
     def __init__(self):
-        self.lockers = [[SEX_FEMALE, 0], [SEX_FEMALE, 0], [SEX_FEMALE, 0]]  # ladies first ;)
+        self.lockers = [[GENDER_FEMALE, 0], [GENDER_FEMALE, 0], [GENDER_FEMALE, 0]]  # ladies first ;)
 
-    # Enter the locker room #num by person of given #sex
-    def locker_in(self, num, sex):
+    # Enter the locker room #num by person of given #gender
+    def locker_in(self, num, gender):
         if self.is_locker_empty(num):
-            self.lockers[num][0] = sex
+            self.lockers[num][0] = gender
         self.lockers[num][1] += 1
 
     # Leave the locker room #num
@@ -32,25 +32,25 @@ class LockersMonitor:
             return True
         return False
 
-    # Check if locker room #num is empty or has same sex
-    def check_locker_sex(self, num, sex):
-        if self.lockers[num][0] == sex or self.is_locker_empty(num):
+    # Check if locker room #num is empty or has same gender
+    def check_locker_gender(self, num, gender):
+        if self.lockers[num][0] == gender or self.is_locker_empty(num):
             return True
         return False
 
-    # Test if person of #sex can enter locker room #num
-    def check_enter(self, num, sex):
-        if self.lockers[num][1] < GLOBAL_LOCKER_CAPACITY and self.check_locker_sex(num, sex):
+    # Test if person of #gender can enter locker room #num
+    def check_enter(self, num, gender):
+        if self.lockers[num][1] < GLOBAL_LOCKER_CAPACITY and self.check_locker_gender(num, gender):
             return True
         return False
 
-    # Find optimal locker room according to #sex
-    def propose_best(self, sex):
+    # Find optimal locker room according to #gender
+    def propose_best(self, gender):
         best = []
         best_val = -1
         for l in range(3):
             lck = self.lockers[l]
-            if self.check_locker_sex(l, sex) and (not self.is_locker_full(l)):
+            if self.check_locker_gender(l, gender) and (not self.is_locker_full(l)):
                 if lck[1] > best_val:
                     best_val = lck[1]
                     best = [l]
@@ -66,16 +66,16 @@ class LockersMonitor:
 
 # if __name__ == '__main__':
 #     monitor = LockersMonitor()
-#     monitor.locker_in(0, SEX_FEMALE)
-#     monitor.locker_in(1, SEX_MALE)
-#     monitor.locker_in(1, SEX_MALE)
-#     monitor.locker_in(1, SEX_MALE)
-#     monitor.locker_in(1, SEX_MALE)
-#     monitor.locker_in(2, SEX_FEMALE)
-#     monitor.locker_in(2, SEX_FEMALE)
-#     monitor.locker_in(2, SEX_FEMALE)
+#     monitor.locker_in(0, GENDER_FEMALE)
+#     monitor.locker_in(1, GENDER_MALE)
+#     monitor.locker_in(1, GENDER_MALE)
+#     monitor.locker_in(1, GENDER_MALE)
+#     monitor.locker_in(1, GENDER_MALE)
+#     monitor.locker_in(2, GENDER_FEMALE)
+#     monitor.locker_in(2, GENDER_FEMALE)
+#     monitor.locker_in(2, GENDER_FEMALE)
 #
-#     result = monitor.propose_best(SEX_FEMALE)
+#     result = monitor.propose_best(GENDER_FEMALE)
 #
 #     print(monitor.lockers)
 #     print(result)
