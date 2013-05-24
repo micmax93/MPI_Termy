@@ -1,20 +1,21 @@
 from my_mpi import *
-from utils import exec_later
+from utils import *
 
 
-class LamportQueue:
-    def __init__(self, name, critical_section_func=None, section_exit_delay=0):
+class AccessQueue:
+    state = 'idle'
+    confirmations_num = 0
+    confirmations_tab = [False] * mpi_count()
+    waiting_set = []
+    get_access_func = empty_func
+
+    def __init__(self, name):
         self.name = name
-        self.confirmations_num = 0
-        self.confirmations_tab = [False] * mpi_count()
-        self.state = 'idle'
-        self.waiting_set = []
-        self.critical_section_func = critical_section_func
-        self.section_exit_delay = section_exit_delay
+        pass
 
     def mk_msg(self, cmd):
         rank = mpi_rank()
-        data = {'cmd': cmd, 'rank': rank, 'name': self.name}
+        data = {'cmd': cmd, 'rank': rank, 'name': self.name, 'tool': 'queue'}
         return data
 
     def send_request(self):
@@ -26,13 +27,12 @@ class LamportQueue:
         #say("Request sent ", data)
 
     def send_confirmation(self, target):
-
         data = self.mk_msg('allowed')
         mpi_send(target, data)
         #say("Confirmation sent to ", target)
 
     def exit_critical(self):
-        say(">>Exiting critical section")
+        say(">>Exiting ", self.name, " queue section")
         self.state = 'idle'
         for e in self.waiting_set:
             self.send_confirmation(e)
@@ -41,11 +41,9 @@ class LamportQueue:
 
     def critical_section(self):
         #kod sekcji krytycznej
-        say(">>Entering critical section")
-        if self.critical_section_func is not None:
-            self.critical_section_func()
-        if self.section_exit_delay is not None:
-            exec_later(self.section_exit_delay, LamportQueue.exit_critical, [self])
+        say(">>Entering ", self.name, " queue section")
+        if self.get_access_func is not None:
+            self.get_access_func()
 
     def on_confirmation(self, sender):
         self.confirmations_num += 1

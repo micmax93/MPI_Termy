@@ -1,7 +1,8 @@
 from globals import *
+from access_monitor import *
 
 
-class ShowerMonitor:
+class ShowerMonitor(Monitor):
     def __init__(self):
         self.curr_amount = 0
         self.curr_gender = GENDER_FEMALE
@@ -21,3 +22,12 @@ class ShowerMonitor:
             return True
         else:
             return False
+
+    def get_in(self, id, type):
+        self.shower_in(type)
+
+    def get_out(self, id):
+        self.shower_out()
+
+    def get_access(self, type):
+        return self.check_enter(type), 1
