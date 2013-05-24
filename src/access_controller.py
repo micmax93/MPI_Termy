@@ -24,7 +24,7 @@ class AccessController:
         self.queue.send_request()
 
     def exit(self):
-        self.manager.get_out
+        self.manager.get_out()
 
     def on_confirmation(self, sender, data):
         if data['tool'] == 'queue':

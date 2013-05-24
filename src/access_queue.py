@@ -46,9 +46,10 @@ class AccessQueue:
             self.get_access_func()
 
     def on_confirmation(self, sender):
-        self.confirmations_num += 1
-        self.confirmations_tab[sender] = True
-        #say("Confirmation received from ", sender, " - ", self.confirmations_num, ' out of ', mpi_count() - 1)
+        if not self.confirmations_tab[sender]:
+            self.confirmations_num += 1
+            self.confirmations_tab[sender] = True
+        #say(self.name," Confirmation received from ",sender, " - ",self.confirmations_num, ' out of ', mpi_count() - 1)
         if self.confirmations_num == mpi_count() - 1:
             self.state = 'active'
             self.critical_section()

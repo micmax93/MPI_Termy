@@ -24,7 +24,7 @@ if __name__ == '__main__':
     q['showers'] = AccessController('showers', gender, ShowerMonitor())
 
     LOCKER_DELAY = 0.2
-    SHOWER_DELAY = 0.1
+    SHOWER_DELAY = 0.3
     POOL_DELAY = 0.5
     q['lockers'].set_access_func(LOCKER_DELAY, q['showers'].enter)
     q['showers'].set_access_func(SHOWER_DELAY, q['showers'].exit)

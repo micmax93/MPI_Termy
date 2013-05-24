@@ -18,7 +18,7 @@ class ShowerMonitor(Monitor):
     def check_enter(self, gender):
         if self.curr_amount == 0:
             return True
-        elif self.curr_amount < GLOBAL_LOCKER_CAPACITY and self.curr_gender == gender:
+        elif self.curr_amount < GLOBAL_SHOWER_CAPACITY and self.curr_gender == gender:
             return True
         else:
             return False

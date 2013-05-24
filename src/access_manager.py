@@ -67,7 +67,7 @@ class AccessManager():
             self.queue_free_func()
             exec_later(self.get_in_delay, self.access_func)
         elif self.req_state == 'exiting':
-            say(">>Exiting locker ", self.name, " ", self.req_id)
+            say(">>Exiting ", self.name, " ", self.req_id)
             self.monitor.get_out(self.req_id)
             self.req_state = 'outside'
             exec_later(self.get_out_delay, self.exit_func)
