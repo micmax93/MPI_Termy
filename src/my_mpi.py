@@ -25,3 +25,7 @@ def mpi_bcast(data, tag=0):
 
 def mpi_barrier():
     MPI.COMM_WORLD.barrier()
+
+
+def say(*args):
+    print(mpi_rank(), ' : ', *args, sep='')

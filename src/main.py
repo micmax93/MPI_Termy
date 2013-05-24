@@ -1,35 +1,21 @@
 from my_mpi import *
-from algo import *
+from entry_queue import *
 from locker_queue import *
 from utils import exec_later
-
-
-def setup_queue():
-    lockers = LockerQueue(name="lockers", section_exit_delay=0.5)
-
-    def lockers_out():
-        lockers.leave_locker()
-
-    lockers.critical_section_func = lockers_out
-
-    entry = LamportQueue(name="entry", critical_section_func=lockers.get_locker)
-    return {'entry': entry, 'lockers': lockers}
 
 
 if __name__ == '__main__':
 
     mpi_barrier()
     q = {}
-    q['lockers'] = LockerQueue(name="lockers", gender=GENDER_MALE,)
 
-    q['entry'] = LamportQueue(name="entry", critical_section_func=q['lockers'].get_locker, section_exit_delay=None)
+    q['entry'] = EntryQueue()
+    q['lockers'] = LockerQueue(gender=GENDER_MALE)
+    q['entry'].get_locker_func = q['lockers'].get_locker
 
-    def lockers_out():
-        #say("LOCKERS_OUT()")
-        q['entry'].exit_critical()
-        exec_later(0.3, q['lockers'].leave_locker)
-
-    q['lockers'].critical_section_func = lockers_out
+    q['lockers'].entry_free_func = q['entry'].exit_critical
+    q['lockers'].get_shower_func = q['lockers'].leave_locker  # TODO shower :)
+    q['lockers'].locker_in_delay = 0.3
 
     loops = 1
     finished = 0

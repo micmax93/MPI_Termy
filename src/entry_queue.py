@@ -1,16 +1,17 @@
 from my_mpi import *
-from utils import exec_later
+from utils import *
 
 
-class LamportQueue:
-    def __init__(self, name, critical_section_func=None, section_exit_delay=0):
-        self.name = name
-        self.confirmations_num = 0
-        self.confirmations_tab = [False] * mpi_count()
-        self.state = 'idle'
-        self.waiting_set = []
-        self.critical_section_func = critical_section_func
-        self.section_exit_delay = section_exit_delay
+class EntryQueue:
+    name = 'entry'
+    state = 'idle'
+    confirmations_num = 0
+    confirmations_tab = [False] * mpi_count()
+    waiting_set = []
+    get_locker_func = empty_func
+
+    def __init__(self):
+        pass
 
     def mk_msg(self, cmd):
         rank = mpi_rank()
@@ -26,7 +27,6 @@ class LamportQueue:
         #say("Request sent ", data)
 
     def send_confirmation(self, target):
-
         data = self.mk_msg('allowed')
         mpi_send(target, data)
         #say("Confirmation sent to ", target)
@@ -42,10 +42,8 @@ class LamportQueue:
     def critical_section(self):
         #kod sekcji krytycznej
         say(">>Entering critical section")
-        if self.critical_section_func is not None:
-            self.critical_section_func()
-        if self.section_exit_delay is not None:
-            exec_later(self.section_exit_delay, LamportQueue.exit_critical, [self])
+        if self.get_locker_func is not None:
+            self.get_locker_func()
 
     def on_confirmation(self, sender):
         self.confirmations_num += 1

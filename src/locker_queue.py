@@ -1,5 +1,6 @@
 from algo import *
 from lockers_monitor import *
+from utils import *
 
 
 class LockerQueue():
@@ -8,13 +9,14 @@ class LockerQueue():
     req_locker = None
     locker_state = 'outside'
     state = 'idle'
+    name = 'lockers'
+    entry_free_func = empty_func
+    get_shower_func = empty_func
+    locker_in_delay = 0
 
-    def __init__(self, name, gender, critical_section_func=None, section_exit_delay=0):
-        self.name = name
+    def __init__(self, gender):
         self.confirmations_num = 0
         self.gender = gender
-        self.critical_section_func = critical_section_func
-        self.section_exit_delay = section_exit_delay
 
     def mk_msg(self, cmd):
         rank = mpi_rank()
@@ -59,9 +61,8 @@ class LockerQueue():
             say(">>Entering locker ", self.req_locker)
             self.lockers.locker_in(self.req_locker, self.gender)
             self.locker_state = 'inside'
-            if self.critical_section_func is not None:
-                #say("Calling locker func!!!")
-                exec_later(self.section_exit_delay, self.critical_section_func, [])
+            self.entry_free_func()
+            exec_later(self.locker_in_delay, self.get_shower_func)
         elif self.locker_state == 'exiting':
             say(">>Exiting locker ", self.req_locker)
             self.lockers.locker_out(self.req_locker)
