@@ -1,6 +1,6 @@
 """ Globals with necessary settings """
 
-GLOBAL_LOCKER_CAPACITY = 4
+GLOBAL_LOCKER_CAPACITY = 3
 GLOBAL_SHOWER_CAPACITY = 7
 
 GENDER_MALE = 'M'
