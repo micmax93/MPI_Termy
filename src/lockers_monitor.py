@@ -1,6 +1,7 @@
 from globals import *
 from random import randint
 
+
 class LockersMonitor:
     """
     Locker monitor keeps locker room's states and enabled to retrieve them.
