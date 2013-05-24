@@ -36,19 +36,20 @@ class LamportQueue:
         #say("Confirmation sent to ", target)
 
     def exit_critical(self):
-        #say(">>Exiting critical section")
+        say(">>Exiting critical section")
         self.state = 'idle'
         for e in self.waiting_set:
             self.send_confirmation(e)
         self.waiting_set = []
-        mpi_send(mpi_rank(), self.mk_msg('job_done'))
+        #mpi_send(mpi_rank(), self.mk_msg('job_done'))
 
     def critical_section(self):
         #kod sekcji krytycznej
         say(">>Entering critical section")
         if self.critical_section_func is not None:
             self.critical_section_func()
-        exec_later(self.section_exit_delay, LamportQueue.exit_critical, [self])
+        if self.section_exit_delay is not None:
+            exec_later(self.section_exit_delay, LamportQueue.exit_critical, [self])
 
     def on_confirmation(self, sender):
         self.confirmations_num += 1
@@ -58,7 +59,7 @@ class LamportQueue:
             self.state = 'active'
             self.critical_section()
 
-    def on_request(self, sender):
+    def on_request(self, sender, data):
         #say("Received request from ", sender)
         if self.state == 'idle':
             self.send_confirmation(sender)
