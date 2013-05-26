@@ -1,8 +1,9 @@
 from globals import *
 from random import randint
+from access_monitor import *
 
 
-class LockersMonitor:
+class LockersMonitor(Monitor):
     """
     Locker monitor keeps locker room's states and enabled to retrieve them.
     """
@@ -60,23 +61,15 @@ class LockersMonitor:
         if len(best) == 1:
             return True, best[0]
         elif len(best) > 1:
-            return True, best[randint(0, len(best)-1)]
+            return True, best[randint(0, len(best) - 1)]
         else:
             return False, -1
 
+    def get_in(self, id, type):
+        self.locker_in(id, type)
 
-# if __name__ == '__main__':
-#     monitor = LockersMonitor()
-#     monitor.locker_in(0, GENDER_FEMALE)
-#     monitor.locker_in(1, GENDER_MALE)
-#     monitor.locker_in(1, GENDER_MALE)
-#     monitor.locker_in(1, GENDER_MALE)
-#     monitor.locker_in(1, GENDER_MALE)
-#     monitor.locker_in(2, GENDER_FEMALE)
-#     monitor.locker_in(2, GENDER_FEMALE)
-#     monitor.locker_in(2, GENDER_FEMALE)
-#
-#     result = monitor.propose_best(GENDER_FEMALE)
-#
-#     print(monitor.lockers)
-#     print(result)
+    def get_out(self, id):
+        self.locker_out(id)
+
+    def get_access(self, type):
+        return self.propose_best(type)
