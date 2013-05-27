@@ -1,1 +1,1 @@
-mpirun -n 5 python3 src/main.py
+mpirun -n $1 python3 src/main.py

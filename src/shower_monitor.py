@@ -7,11 +7,13 @@ class ShowerMonitor(Monitor):
         self.curr_amount = 0
         self.curr_gender = GENDER_FEMALE
 
+    # Wejście pod przysznic
     def shower_in(self, gender):
         if self.curr_amount == 0:
             self.curr_gender = gender
         self.curr_amount += 1
 
+    # Wyjście z pod prysznica
     def shower_out(self, ):
         self.curr_amount -= 1
 

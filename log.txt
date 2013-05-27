@@ -1,0 +1,1598 @@
+1 : Request sent {'cmd': 'request', 'tool': 'queue', 'rank': 1, 'name': 'lockers'}
+8 : Request sent {'tool': 'queue', 'cmd': 'request', 'rank': 8, 'name': 'lockers'}
+10 : Request sent {'tool': 'queue', 'rank': 10, 'name': 'lockers', 'cmd': 'request'}
+14 : Request sent {'name': 'lockers', 'tool': 'queue', 'cmd': 'request', 'rank': 14}
+12 : Request sent {'name': 'lockers', 'rank': 12, 'cmd': 'request', 'tool': 'queue'}
+3 : Request sent {'name': 'lockers', 'rank': 3, 'cmd': 'request', 'tool': 'queue'}
+5 : Request sent {'rank': 5, 'name': 'lockers', 'cmd': 'request', 'tool': 'queue'}
+1 : lockers queue confirmation received from 10 - 1 out of 14
+1 : lockers queue confirmation received from 8 - 2 out of 14
+1 : lockers queue confirmation received from 3 - 3 out of 14
+1 : lockers queue confirmation received from 5 - 4 out of 14
+1 : lockers queue confirmation received from 14 - 5 out of 14
+8 : lockers queue confirmation received from 10 - 1 out of 14
+1 : lockers queue confirmation received from 12 - 6 out of 14
+3 : lockers queue confirmation received from 8 - 1 out of 14
+8 : lockers queue confirmation received from 14 - 2 out of 14
+3 : lockers queue confirmation received from 14 - 2 out of 14
+5 : lockers queue confirmation received from 8 - 1 out of 14
+12 : lockers queue confirmation received from 14 - 1 out of 14
+8 : lockers queue confirmation received from 12 - 3 out of 14
+3 : lockers queue confirmation received from 5 - 3 out of 14
+5 : lockers queue confirmation received from 14 - 2 out of 14
+5 : lockers queue confirmation received from 12 - 3 out of 14
+3 : lockers queue confirmation received from 12 - 4 out of 14
+5 : lockers queue confirmation received from 10 - 4 out of 14
+3 : lockers queue confirmation received from 10 - 5 out of 14
+10 : lockers queue confirmation received from 14 - 1 out of 14
+10 : lockers queue confirmation received from 12 - 2 out of 14
+9 : Request sent {'name': 'lockers', 'cmd': 'request', 'tool': 'queue', 'rank': 9}
+13 : Request sent {'tool': 'queue', 'cmd': 'request', 'rank': 13, 'name': 'lockers'}
+2 : Request sent {'name': 'lockers', 'rank': 2, 'cmd': 'request', 'tool': 'queue'}
+6 : Request sent {'tool': 'queue', 'rank': 6, 'name': 'lockers', 'cmd': 'request'}
+1 : lockers queue confirmation received from 9 - 7 out of 14
+3 : lockers queue confirmation received from 9 - 6 out of 14
+1 : lockers queue confirmation received from 6 - 8 out of 14
+5 : lockers queue confirmation received from 6 - 5 out of 14
+1 : lockers queue confirmation received from 2 - 9 out of 14
+5 : lockers queue confirmation received from 9 - 6 out of 14
+6 : lockers queue confirmation received from 8 - 1 out of 14
+8 : lockers queue confirmation received from 9 - 4 out of 14
+3 : lockers queue confirmation received from 6 - 7 out of 14
+6 : lockers queue confirmation received from 12 - 2 out of 14
+2 : lockers queue confirmation received from 3 - 1 out of 14
+9 : lockers queue confirmation received from 12 - 1 out of 14
+6 : lockers queue confirmation received from 9 - 3 out of 14
+9 : lockers queue confirmation received from 14 - 2 out of 14
+6 : lockers queue confirmation received from 14 - 4 out of 14
+2 : lockers queue confirmation received from 5 - 2 out of 14
+2 : lockers queue confirmation received from 8 - 3 out of 14
+2 : lockers queue confirmation received from 12 - 4 out of 14
+2 : lockers queue confirmation received from 6 - 5 out of 14
+2 : lockers queue confirmation received from 9 - 6 out of 14
+2 : lockers queue confirmation received from 14 - 7 out of 14
+1 : lockers queue confirmation received from 13 - 10 out of 14
+3 : lockers queue confirmation received from 13 - 8 out of 14
+5 : lockers queue confirmation received from 13 - 7 out of 14
+8 : lockers queue confirmation received from 13 - 5 out of 14
+12 : lockers queue confirmation received from 13 - 2 out of 14
+9 : lockers queue confirmation received from 13 - 3 out of 14
+9 : lockers queue confirmation received from 10 - 4 out of 14
+2 : lockers queue confirmation received from 13 - 8 out of 14
+6 : lockers queue confirmation received from 13 - 5 out of 14
+13 : lockers queue confirmation received from 14 - 1 out of 14
+4 : Request sent {'cmd': 'request', 'name': 'lockers', 'rank': 4, 'tool': 'queue'}
+11 : Request sent {'cmd': 'request', 'tool': 'queue', 'name': 'lockers', 'rank': 11}
+0 : Request sent {'tool': 'queue', 'rank': 0, 'name': 'lockers', 'cmd': 'request'}
+1 : lockers queue confirmation received from 4 - 11 out of 14
+2 : lockers queue confirmation received from 4 - 9 out of 14
+1 : lockers queue confirmation received from 11 - 12 out of 14
+2 : lockers queue confirmation received from 11 - 10 out of 14
+5 : lockers queue confirmation received from 11 - 8 out of 14
+6 : lockers queue confirmation received from 11 - 6 out of 14
+4 : lockers queue confirmation received from 5 - 1 out of 14
+0 : lockers queue confirmation received from 1 - 1 out of 14
+0 : lockers queue confirmation received from 2 - 2 out of 14
+4 : lockers queue confirmation received from 6 - 2 out of 14
+2 : lockers queue confirmation received from 10 - 11 out of 14
+11 : lockers queue confirmation received from 14 - 1 out of 14
+9 : lockers queue confirmation received from 11 - 5 out of 14
+0 : lockers queue confirmation received from 6 - 3 out of 14
+4 : lockers queue confirmation received from 8 - 3 out of 14
+0 : lockers queue confirmation received from 5 - 4 out of 14
+4 : lockers queue confirmation received from 14 - 4 out of 14
+0 : lockers queue confirmation received from 14 - 5 out of 14
+11 : lockers queue confirmation received from 12 - 2 out of 14
+0 : lockers queue confirmation received from 8 - 6 out of 14
+0 : lockers queue confirmation received from 4 - 7 out of 14
+4 : lockers queue confirmation received from 9 - 5 out of 14
+0 : lockers queue confirmation received from 9 - 8 out of 14
+0 : lockers queue confirmation received from 11 - 9 out of 14
+4 : lockers queue confirmation received from 11 - 6 out of 14
+0 : lockers queue confirmation received from 3 - 10 out of 14
+3 : lockers queue confirmation received from 4 - 9 out of 14
+8 : lockers queue confirmation received from 11 - 6 out of 14
+0 : lockers queue confirmation received from 12 - 11 out of 14
+4 : lockers queue confirmation received from 12 - 7 out of 14
+3 : lockers queue confirmation received from 11 - 10 out of 14
+6 : lockers queue confirmation received from 10 - 7 out of 14
+4 : lockers queue confirmation received from 13 - 8 out of 14
+7 : Request sent {'rank': 7, 'name': 'lockers', 'tool': 'queue', 'cmd': 'request'}
+11 : lockers queue confirmation received from 13 - 3 out of 14
+10 : lockers queue confirmation received from 13 - 3 out of 14
+0 : lockers queue confirmation received from 13 - 12 out of 14
+4 : lockers queue confirmation received from 10 - 9 out of 14
+0 : lockers queue confirmation received from 10 - 13 out of 14
+10 : lockers queue confirmation received from 11 - 4 out of 14
+1 : lockers queue confirmation received from 7 - 13 out of 14
+3 : lockers queue confirmation received from 7 - 11 out of 14
+5 : lockers queue confirmation received from 7 - 9 out of 14
+2 : lockers queue confirmation received from 7 - 12 out of 14
+6 : lockers queue confirmation received from 7 - 8 out of 14
+4 : lockers queue confirmation received from 7 - 10 out of 14
+0 : lockers queue confirmation received from 7 - 14 out of 14
+7 : lockers queue confirmation received from 9 - 1 out of 14
+0 : >>Entering lockers queue section
+7 : lockers queue confirmation received from 8 - 2 out of 14
+0 : Requesting lockers
+7 : lockers queue confirmation received from 11 - 3 out of 14
+0 : Waiting for lockers confirm
+7 : lockers queue confirmation received from 12 - 4 out of 14
+7 : lockers queue confirmation received from 14 - 5 out of 14
+0 : Request sent {'type': 'F', 'tool': 'manager', 'name': 'lockers', 'cmd': 'request', 'state': 'entering', 'rank': 0, 'id': 2}
+7 : lockers queue confirmation received from 13 - 6 out of 14
+7 : lockers queue confirmation received from 10 - 7 out of 14
+0 : lockers manager confirmation received from 1 - 1 out of 14
+0 : lockers manager confirmation received from 2 - 2 out of 14
+0 : lockers manager confirmation received from 3 - 3 out of 14
+0 : lockers manager confirmation received from 5 - 4 out of 14
+0 : lockers manager confirmation received from 6 - 5 out of 14
+0 : lockers manager confirmation received from 4 - 6 out of 14
+0 : lockers manager confirmation received from 8 - 7 out of 14
+0 : lockers manager confirmation received from 10 - 8 out of 14
+0 : lockers manager confirmation received from 11 - 9 out of 14
+0 : lockers manager confirmation received from 12 - 10 out of 14
+0 : lockers manager confirmation received from 14 - 11 out of 14
+0 : lockers manager confirmation received from 13 - 12 out of 14
+0 : lockers manager confirmation received from 7 - 13 out of 14
+0 : lockers manager confirmation received from 9 - 14 out of 14
+0 : >>Entering lockers 2
+0 : >>Exiting lockers queue section
+0 :  Sending confirms to: [1, 2, 3, 5, 6, 8, 9, 10, 12, 13, 14, 4, 11, 7]
+2 : lockers queue confirmation received from 0 - 13 out of 14
+1 : lockers queue confirmation received from 0 - 14 out of 14
+1 : >>Entering lockers queue section
+5 : lockers queue confirmation received from 0 - 10 out of 14
+6 : lockers queue confirmation received from 0 - 9 out of 14
+1 : Requesting lockers
+3 : lockers queue confirmation received from 0 - 12 out of 14
+1 : Waiting for lockers confirm
+8 : lockers queue confirmation received from 0 - 7 out of 14
+1 : Request sent {'state': 'entering', 'name': 'lockers', 'cmd': 'request', 'tool': 'manager', 'rank': 1, 'id': 2, 'type': 'F'}
+11 : lockers queue confirmation received from 0 - 4 out of 14
+14 : lockers queue confirmation received from 0 - 1 out of 14
+10 : lockers queue confirmation received from 0 - 5 out of 14
+12 : lockers queue confirmation received from 0 - 3 out of 14
+7 : lockers queue confirmation received from 0 - 8 out of 14
+1 : lockers manager confirmation received from 2 - 1 out of 14
+4 : lockers queue confirmation received from 0 - 11 out of 14
+13 : lockers queue confirmation received from 0 - 2 out of 14
+1 : lockers manager confirmation received from 5 - 2 out of 14
+1 : lockers manager confirmation received from 4 - 3 out of 14
+1 : lockers manager confirmation received from 6 - 4 out of 14
+1 : lockers manager confirmation received from 7 - 5 out of 14
+1 : lockers manager confirmation received from 8 - 6 out of 14
+1 : lockers manager confirmation received from 3 - 7 out of 14
+1 : lockers manager confirmation received from 11 - 8 out of 14
+1 : lockers manager confirmation received from 14 - 9 out of 14
+1 : lockers manager confirmation received from 12 - 10 out of 14
+1 : lockers manager confirmation received from 10 - 11 out of 14
+1 : lockers manager confirmation received from 13 - 12 out of 14
+9 : lockers queue confirmation received from 0 - 6 out of 14
+1 : lockers manager confirmation received from 9 - 13 out of 14
+1 : lockers manager confirmation received from 0 - 14 out of 14
+1 : >>Entering lockers 2
+1 : >>Exiting lockers queue section
+1 :  Sending confirms to: [8, 10, 14, 12, 3, 5, 9, 2, 13, 6, 4, 11, 7]
+8 : lockers queue confirmation received from 1 - 8 out of 14
+10 : lockers queue confirmation received from 1 - 6 out of 14
+14 : lockers queue confirmation received from 1 - 2 out of 14
+12 : lockers queue confirmation received from 1 - 4 out of 14
+6 : lockers queue confirmation received from 1 - 10 out of 14
+5 : lockers queue confirmation received from 1 - 11 out of 14
+13 : lockers queue confirmation received from 1 - 3 out of 14
+3 : lockers queue confirmation received from 1 - 13 out of 14
+2 : lockers queue confirmation received from 1 - 14 out of 14
+11 : lockers queue confirmation received from 1 - 5 out of 14
+2 : >>Entering lockers queue section
+2 : Requesting lockers
+4 : lockers queue confirmation received from 1 - 12 out of 14
+7 : lockers queue confirmation received from 1 - 9 out of 14
+2 : Waiting for lockers confirm
+2 : Request sent {'name': 'lockers', 'state': 'entering', 'id': 0, 'tool': 'manager', 'type': 'M', 'rank': 2, 'cmd': 'request'}
+2 : lockers manager confirmation received from 0 - 1 out of 14
+2 : lockers manager confirmation received from 3 - 2 out of 14
+2 : lockers manager confirmation received from 5 - 3 out of 14
+2 : lockers manager confirmation received from 6 - 4 out of 14
+2 : lockers manager confirmation received from 7 - 5 out of 14
+2 : lockers manager confirmation received from 8 - 6 out of 14
+2 : lockers manager confirmation received from 4 - 7 out of 14
+2 : lockers manager confirmation received from 11 - 8 out of 14
+2 : lockers manager confirmation received from 10 - 9 out of 14
+2 : lockers manager confirmation received from 13 - 10 out of 14
+2 : lockers manager confirmation received from 12 - 11 out of 14
+2 : lockers manager confirmation received from 14 - 12 out of 14
+9 : lockers queue confirmation received from 1 - 7 out of 14
+2 : lockers manager confirmation received from 9 - 13 out of 14
+2 : lockers manager confirmation received from 1 - 14 out of 14
+2 : >>Entering lockers 0
+2 : >>Exiting lockers queue section
+2 :  Sending confirms to: [3, 5, 8, 10, 12, 14, 9, 13, 6, 4, 11, 7]
+3 : lockers queue confirmation received from 2 - 14 out of 14
+5 : lockers queue confirmation received from 2 - 12 out of 14
+10 : lockers queue confirmation received from 2 - 7 out of 14
+6 : lockers queue confirmation received from 2 - 11 out of 14
+11 : lockers queue confirmation received from 2 - 6 out of 14
+12 : lockers queue confirmation received from 2 - 5 out of 14
+7 : lockers queue confirmation received from 2 - 10 out of 14
+8 : lockers queue confirmation received from 2 - 9 out of 14
+3 : >>Entering lockers queue section
+4 : lockers queue confirmation received from 2 - 13 out of 14
+14 : lockers queue confirmation received from 2 - 3 out of 14
+3 : Requesting lockers
+3 : Waiting for lockers confirm
+9 : lockers queue confirmation received from 2 - 8 out of 14
+3 : Request sent {'type': 'M', 'rank': 3, 'cmd': 'request', 'name': 'lockers', 'state': 'entering', 'id': 0, 'tool': 'manager'}
+3 : lockers manager confirmation received from 1 - 1 out of 14
+3 : lockers manager confirmation received from 5 - 2 out of 14
+3 : lockers manager confirmation received from 6 - 3 out of 14
+3 : lockers manager confirmation received from 7 - 4 out of 14
+3 : lockers manager confirmation received from 0 - 5 out of 14
+3 : lockers manager confirmation received from 11 - 6 out of 14
+3 : lockers manager confirmation received from 8 - 7 out of 14
+3 : lockers manager confirmation received from 10 - 8 out of 14
+3 : lockers manager confirmation received from 14 - 9 out of 14
+3 : lockers manager confirmation received from 12 - 10 out of 14
+3 : lockers manager confirmation received from 4 - 11 out of 14
+3 : lockers manager confirmation received from 9 - 12 out of 14
+3 : lockers manager confirmation received from 2 - 13 out of 14
+13 : lockers queue confirmation received from 2 - 4 out of 14
+3 : lockers manager confirmation received from 13 - 14 out of 14
+3 : >>Entering lockers 0
+3 : >>Exiting lockers queue section
+3 :  Sending confirms to: [8, 10, 14, 12, 5, 9, 13, 6, 4, 11, 7]
+10 : lockers queue confirmation received from 3 - 8 out of 14
+8 : lockers queue confirmation received from 3 - 10 out of 14
+14 : lockers queue confirmation received from 3 - 4 out of 14
+13 : lockers queue confirmation received from 3 - 5 out of 14
+7 : lockers queue confirmation received from 3 - 11 out of 14
+6 : lockers queue confirmation received from 3 - 12 out of 14
+11 : lockers queue confirmation received from 3 - 7 out of 14
+5 : lockers queue confirmation received from 3 - 13 out of 14
+4 : lockers queue confirmation received from 3 - 14 out of 14
+9 : lockers queue confirmation received from 3 - 9 out of 14
+4 : >>Entering lockers queue section
+4 : Requesting lockers
+4 : Waiting for lockers confirm
+4 : Request sent {'state': 'entering', 'id': 0, 'tool': 'manager', 'type': 'M', 'cmd': 'request', 'name': 'lockers', 'rank': 4}
+12 : lockers queue confirmation received from 3 - 6 out of 14
+4 : lockers manager confirmation received from 0 - 1 out of 14
+4 : lockers manager confirmation received from 1 - 2 out of 14
+4 : lockers manager confirmation received from 2 - 3 out of 14
+4 : lockers manager confirmation received from 6 - 4 out of 14
+4 : lockers manager confirmation received from 7 - 5 out of 14
+4 : lockers manager confirmation received from 5 - 6 out of 14
+4 : lockers manager confirmation received from 9 - 7 out of 14
+4 : lockers manager confirmation received from 11 - 8 out of 14
+4 : lockers manager confirmation received from 10 - 9 out of 14
+4 : lockers manager confirmation received from 13 - 10 out of 14
+4 : lockers manager confirmation received from 8 - 11 out of 14
+4 : lockers manager confirmation received from 14 - 12 out of 14
+4 : lockers manager confirmation received from 12 - 13 out of 14
+4 : lockers manager confirmation received from 3 - 14 out of 14
+4 : >>Entering lockers 0
+4 : >>Exiting lockers queue section
+4 :  Sending confirms to: [5, 6, 8, 9, 10, 12, 13, 14, 11, 7]
+6 : lockers queue confirmation received from 4 - 13 out of 14
+5 : lockers queue confirmation received from 4 - 14 out of 14
+9 : lockers queue confirmation received from 4 - 10 out of 14
+13 : lockers queue confirmation received from 4 - 6 out of 14
+10 : lockers queue confirmation received from 4 - 9 out of 14
+14 : lockers queue confirmation received from 4 - 5 out of 14
+7 : lockers queue confirmation received from 4 - 12 out of 14
+11 : lockers queue confirmation received from 4 - 8 out of 14
+12 : lockers queue confirmation received from 4 - 7 out of 14
+5 : >>Entering lockers queue section
+5 : Requesting lockers
+5 : Waiting for lockers confirm
+5 : Request sent {'rank': 5, 'cmd': 'request', 'tool': 'manager', 'id': 1, 'type': 'M', 'name': 'lockers', 'state': 'entering'}
+5 : lockers manager confirmation received from 0 - 1 out of 14
+8 : lockers queue confirmation received from 4 - 11 out of 14
+5 : lockers manager confirmation received from 1 - 2 out of 14
+5 : lockers manager confirmation received from 2 - 3 out of 14
+5 : lockers manager confirmation received from 3 - 4 out of 14
+5 : lockers manager confirmation received from 6 - 5 out of 14
+5 : lockers manager confirmation received from 7 - 6 out of 14
+5 : lockers manager confirmation received from 9 - 7 out of 14
+5 : lockers manager confirmation received from 11 - 8 out of 14
+5 : lockers manager confirmation received from 12 - 9 out of 14
+5 : lockers manager confirmation received from 10 - 10 out of 14
+5 : lockers manager confirmation received from 13 - 11 out of 14
+5 : lockers manager confirmation received from 14 - 12 out of 14
+5 : lockers manager confirmation received from 8 - 13 out of 14
+5 : lockers manager confirmation received from 4 - 14 out of 14
+5 : >>Entering lockers 1
+5 : >>Exiting lockers queue section
+5 :  Sending confirms to: [8, 10, 14, 12, 9, 13, 6, 11, 7]
+10 : lockers queue confirmation received from 5 - 10 out of 14
+14 : lockers queue confirmation received from 5 - 6 out of 14
+6 : lockers queue confirmation received from 5 - 14 out of 14
+9 : lockers queue confirmation received from 5 - 11 out of 14
+13 : lockers queue confirmation received from 5 - 7 out of 14
+11 : lockers queue confirmation received from 5 - 9 out of 14
+6 : >>Entering lockers queue section
+6 : Requesting lockers
+6 : Waiting for lockers confirm
+12 : lockers queue confirmation received from 5 - 8 out of 14
+6 : Request sent {'type': 'M', 'rank': 6, 'tool': 'manager', 'name': 'lockers', 'cmd': 'request', 'state': 'entering', 'id': 1}
+7 : lockers queue confirmation received from 5 - 13 out of 14
+6 : lockers manager confirmation received from 0 - 1 out of 14
+6 : lockers manager confirmation received from 1 - 2 out of 14
+6 : lockers manager confirmation received from 2 - 3 out of 14
+6 : lockers manager confirmation received from 3 - 4 out of 14
+6 : lockers manager confirmation received from 7 - 5 out of 14
+6 : lockers manager confirmation received from 9 - 6 out of 14
+6 : lockers manager confirmation received from 11 - 7 out of 14
+6 : lockers manager confirmation received from 4 - 8 out of 14
+6 : lockers manager confirmation received from 10 - 9 out of 14
+6 : lockers manager confirmation received from 13 - 10 out of 14
+6 : lockers manager confirmation received from 14 - 11 out of 14
+6 : lockers manager confirmation received from 12 - 12 out of 14
+8 : lockers queue confirmation received from 5 - 12 out of 14
+6 : lockers manager confirmation received from 8 - 13 out of 14
+6 : lockers manager confirmation received from 5 - 14 out of 14
+6 : >>Entering lockers 1
+6 : >>Exiting lockers queue section
+6 :  Sending confirms to: [8, 10, 12, 14, 9, 13, 11, 7]
+10 : lockers queue confirmation received from 6 - 11 out of 14
+14 : lockers queue confirmation received from 6 - 7 out of 14
+13 : lockers queue confirmation received from 6 - 8 out of 14
+11 : lockers queue confirmation received from 6 - 10 out of 14
+12 : lockers queue confirmation received from 6 - 9 out of 14
+9 : lockers queue confirmation received from 6 - 12 out of 14
+7 : lockers queue confirmation received from 6 - 14 out of 14
+7 : >>Entering lockers queue section
+7 : Requesting lockers
+7 : Waiting for lockers confirm
+8 : lockers queue confirmation received from 6 - 13 out of 14
+7 : Request sent {'state': 'entering', 'type': 'F', 'tool': 'manager', 'id': 2, 'name': 'lockers', 'rank': 7, 'cmd': 'request'}
+7 : lockers manager confirmation received from 0 - 1 out of 14
+7 : lockers manager confirmation received from 1 - 2 out of 14
+7 : lockers manager confirmation received from 2 - 3 out of 14
+7 : lockers manager confirmation received from 3 - 4 out of 14
+7 : lockers manager confirmation received from 9 - 5 out of 14
+7 : lockers manager confirmation received from 11 - 6 out of 14
+7 : lockers manager confirmation received from 4 - 7 out of 14
+7 : lockers manager confirmation received from 13 - 8 out of 14
+7 : lockers manager confirmation received from 14 - 9 out of 14
+7 : lockers manager confirmation received from 12 - 10 out of 14
+7 : lockers manager confirmation received from 10 - 11 out of 14
+7 : lockers manager confirmation received from 8 - 12 out of 14
+7 : lockers manager confirmation received from 5 - 13 out of 14
+7 : lockers manager confirmation received from 6 - 14 out of 14
+7 : >>Entering lockers 2
+7 : >>Exiting lockers queue section
+7 :  Sending confirms to: [8, 10, 14, 12, 9, 13, 11]
+14 : lockers queue confirmation received from 7 - 8 out of 14
+13 : lockers queue confirmation received from 7 - 9 out of 14
+11 : lockers queue confirmation received from 7 - 11 out of 14
+9 : lockers queue confirmation received from 7 - 13 out of 14
+12 : lockers queue confirmation received from 7 - 10 out of 14
+8 : lockers queue confirmation received from 7 - 14 out of 14
+10 : lockers queue confirmation received from 7 - 12 out of 14
+8 : >>Entering lockers queue section
+8 : Requesting lockers
+8 : Waiting for lockers free
+0 : Request sent {'tool': 'queue', 'rank': 0, 'name': 'showers', 'cmd': 'request'}
+0 : showers queue confirmation received from 2 - 1 out of 14
+0 : showers queue confirmation received from 5 - 2 out of 14
+0 : showers queue confirmation received from 3 - 3 out of 14
+0 : showers queue confirmation received from 6 - 4 out of 14
+0 : showers queue confirmation received from 9 - 5 out of 14
+0 : showers queue confirmation received from 13 - 6 out of 14
+0 : showers queue confirmation received from 14 - 7 out of 14
+0 : showers queue confirmation received from 4 - 8 out of 14
+0 : showers queue confirmation received from 12 - 9 out of 14
+0 : showers queue confirmation received from 1 - 10 out of 14
+0 : showers queue confirmation received from 8 - 11 out of 14
+0 : showers queue confirmation received from 11 - 12 out of 14
+0 : showers queue confirmation received from 10 - 13 out of 14
+0 : showers queue confirmation received from 7 - 14 out of 14
+0 : >>Entering showers queue section
+0 : Requesting showers
+0 : Waiting for showers confirm
+0 : Request sent {'type': 'F', 'tool': 'manager', 'name': 'showers', 'cmd': 'request', 'state': 'entering', 'rank': 0, 'id': 1}
+0 : showers manager confirmation received from 1 - 1 out of 14
+0 : showers manager confirmation received from 2 - 2 out of 14
+0 : showers manager confirmation received from 3 - 3 out of 14
+0 : showers manager confirmation received from 5 - 4 out of 14
+0 : showers manager confirmation received from 7 - 5 out of 14
+0 : showers manager confirmation received from 9 - 6 out of 14
+0 : showers manager confirmation received from 11 - 7 out of 14
+0 : showers manager confirmation received from 4 - 8 out of 14
+0 : showers manager confirmation received from 8 - 9 out of 14
+0 : showers manager confirmation received from 13 - 10 out of 14
+0 : showers manager confirmation received from 10 - 11 out of 14
+0 : showers manager confirmation received from 14 - 12 out of 14
+0 : showers manager confirmation received from 12 - 13 out of 14
+0 : showers manager confirmation received from 6 - 14 out of 14
+0 : >>Entering showers 1
+0 : >>Exiting showers queue section
+0 :  Sending confirms to: []
+1 : showers queue confirmation received from 0 - 1 out of 14
+1 : showers queue confirmation received from 2 - 2 out of 14
+1 : Request sent {'cmd': 'request', 'tool': 'queue', 'rank': 1, 'name': 'showers'}
+1 : showers queue confirmation received from 3 - 3 out of 14
+1 : showers queue confirmation received from 5 - 4 out of 14
+1 : showers queue confirmation received from 7 - 5 out of 14
+1 : showers queue confirmation received from 6 - 6 out of 14
+1 : showers queue confirmation received from 4 - 7 out of 14
+1 : showers queue confirmation received from 8 - 8 out of 14
+1 : showers queue confirmation received from 9 - 9 out of 14
+1 : showers queue confirmation received from 10 - 10 out of 14
+1 : showers queue confirmation received from 11 - 11 out of 14
+1 : showers queue confirmation received from 12 - 12 out of 14
+1 : showers queue confirmation received from 13 - 13 out of 14
+1 : showers queue confirmation received from 14 - 14 out of 14
+1 : >>Entering showers queue section
+1 : Requesting showers
+1 : Waiting for showers confirm
+1 : Request sent {'state': 'entering', 'name': 'showers', 'cmd': 'request', 'tool': 'manager', 'rank': 1, 'id': 1, 'type': 'F'}
+1 : showers manager confirmation received from 2 - 1 out of 14
+1 : showers manager confirmation received from 3 - 2 out of 14
+1 : showers manager confirmation received from 5 - 3 out of 14
+1 : showers manager confirmation received from 0 - 4 out of 14
+1 : showers manager confirmation received from 7 - 5 out of 14
+1 : showers manager confirmation received from 9 - 6 out of 14
+1 : showers manager confirmation received from 11 - 7 out of 14
+1 : showers manager confirmation received from 4 - 8 out of 14
+1 : showers manager confirmation received from 8 - 9 out of 14
+1 : showers manager confirmation received from 6 - 10 out of 14
+1 : showers manager confirmation received from 10 - 11 out of 14
+1 : showers manager confirmation received from 14 - 12 out of 14
+1 : showers manager confirmation received from 12 - 13 out of 14
+1 : showers manager confirmation received from 13 - 14 out of 14
+1 : >>Entering showers 1
+1 : >>Exiting showers queue section
+1 :  Sending confirms to: []
+3 : Request sent {'name': 'showers', 'rank': 3, 'cmd': 'request', 'tool': 'queue'}
+3 : showers queue confirmation received from 0 - 1 out of 14
+3 : showers queue confirmation received from 1 - 2 out of 14
+3 : showers queue confirmation received from 2 - 3 out of 14
+3 : showers queue confirmation received from 4 - 4 out of 14
+3 : showers queue confirmation received from 5 - 5 out of 14
+3 : showers queue confirmation received from 6 - 6 out of 14
+3 : showers queue confirmation received from 7 - 7 out of 14
+3 : showers queue confirmation received from 9 - 8 out of 14
+3 : showers queue confirmation received from 8 - 9 out of 14
+3 : showers queue confirmation received from 10 - 10 out of 14
+3 : showers queue confirmation received from 12 - 11 out of 14
+3 : showers queue confirmation received from 13 - 12 out of 14
+3 : showers queue confirmation received from 14 - 13 out of 14
+3 : showers queue confirmation received from 11 - 14 out of 14
+3 : >>Entering showers queue section
+3 : Requesting showers
+3 : Waiting for showers free
+4 : Request sent {'cmd': 'request', 'name': 'showers', 'rank': 4, 'tool': 'queue'}
+2 : Request sent {'name': 'showers', 'rank': 2, 'cmd': 'request', 'tool': 'queue'}
+4 : showers queue confirmation received from 0 - 1 out of 14
+4 : showers queue confirmation received from 1 - 2 out of 14
+4 : showers queue confirmation received from 2 - 3 out of 14
+2 : showers queue confirmation received from 0 - 1 out of 14
+4 : showers queue confirmation received from 5 - 4 out of 14
+2 : showers queue confirmation received from 1 - 2 out of 14
+2 : showers queue confirmation received from 6 - 3 out of 14
+2 : showers queue confirmation received from 7 - 4 out of 14
+4 : showers queue confirmation received from 6 - 5 out of 14
+2 : showers queue confirmation received from 5 - 5 out of 14
+2 : showers queue confirmation received from 9 - 6 out of 14
+4 : showers queue confirmation received from 7 - 6 out of 14
+2 : showers queue confirmation received from 10 - 7 out of 14
+2 : showers queue confirmation received from 8 - 8 out of 14
+2 : showers queue confirmation received from 12 - 9 out of 14
+4 : showers queue confirmation received from 8 - 7 out of 14
+2 : showers queue confirmation received from 13 - 10 out of 14
+2 : showers queue confirmation received from 14 - 11 out of 14
+4 : showers queue confirmation received from 9 - 8 out of 14
+2 : showers queue confirmation received from 11 - 12 out of 14
+4 : showers queue confirmation received from 10 - 9 out of 14
+4 : showers queue confirmation received from 12 - 10 out of 14
+4 : showers queue confirmation received from 13 - 11 out of 14
+4 : showers queue confirmation received from 14 - 12 out of 14
+4 : showers queue confirmation received from 11 - 13 out of 14
+5 : showers queue confirmation received from 0 - 1 out of 14
+5 : showers queue confirmation received from 1 - 2 out of 14
+5 : showers queue confirmation received from 6 - 3 out of 14
+5 : showers queue confirmation received from 7 - 4 out of 14
+5 : showers queue confirmation received from 8 - 5 out of 14
+5 : showers queue confirmation received from 9 - 6 out of 14
+5 : showers queue confirmation received from 10 - 7 out of 14
+5 : Request sent {'rank': 5, 'name': 'showers', 'cmd': 'request', 'tool': 'queue'}
+5 : showers queue confirmation received from 13 - 8 out of 14
+5 : showers queue confirmation received from 12 - 9 out of 14
+5 : showers queue confirmation received from 14 - 10 out of 14
+5 : showers queue confirmation received from 11 - 11 out of 14
+6 : showers queue confirmation received from 0 - 1 out of 14
+6 : showers queue confirmation received from 1 - 2 out of 14
+6 : showers queue confirmation received from 7 - 3 out of 14
+6 : showers queue confirmation received from 8 - 4 out of 14
+6 : showers queue confirmation received from 9 - 5 out of 14
+6 : showers queue confirmation received from 10 - 6 out of 14
+6 : Request sent {'tool': 'queue', 'rank': 6, 'name': 'showers', 'cmd': 'request'}
+6 : showers queue confirmation received from 13 - 7 out of 14
+6 : showers queue confirmation received from 12 - 8 out of 14
+6 : showers queue confirmation received from 14 - 9 out of 14
+6 : showers queue confirmation received from 11 - 10 out of 14
+7 : showers queue confirmation received from 0 - 1 out of 14
+7 : Request sent {'rank': 7, 'name': 'showers', 'tool': 'queue', 'cmd': 'request'}
+7 : showers queue confirmation received from 1 - 2 out of 14
+7 : showers queue confirmation received from 8 - 3 out of 14
+7 : showers queue confirmation received from 9 - 4 out of 14
+7 : showers queue confirmation received from 10 - 5 out of 14
+7 : showers queue confirmation received from 12 - 6 out of 14
+7 : showers queue confirmation received from 13 - 7 out of 14
+7 : showers queue confirmation received from 14 - 8 out of 14
+7 : showers queue confirmation received from 11 - 9 out of 14
+3 : Requesting showers
+3 : Waiting for showers free
+0 : Request sent {'type': 'F', 'tool': 'manager', 'name': 'showers', 'cmd': 'request', 'state': 'exiting', 'rank': 0, 'id': 1}
+0 : showers manager confirmation received from 1 - 1 out of 14
+0 : showers manager confirmation received from 2 - 2 out of 14
+0 : showers manager confirmation received from 3 - 3 out of 14
+0 : showers manager confirmation received from 5 - 4 out of 14
+0 : showers manager confirmation received from 6 - 5 out of 14
+0 : showers manager confirmation received from 7 - 6 out of 14
+0 : showers manager confirmation received from 13 - 7 out of 14
+0 : showers manager confirmation received from 14 - 8 out of 14
+0 : showers manager confirmation received from 8 - 9 out of 14
+0 : showers manager confirmation received from 10 - 10 out of 14
+0 : showers manager confirmation received from 12 - 11 out of 14
+0 : showers manager confirmation received from 9 - 12 out of 14
+0 : showers manager confirmation received from 4 - 13 out of 14
+0 : showers manager confirmation received from 11 - 14 out of 14
+0 : >>Exiting showers 1
+3 : Requesting showers
+3 : Waiting for showers confirm
+1 : showers manager confirmation received from 0 - 1 out of 14
+1 : showers manager confirmation received from 2 - 2 out of 14
+1 : showers manager confirmation received from 3 - 3 out of 14
+1 : showers manager confirmation received from 4 - 4 out of 14
+3 : Request sent {'type': 'M', 'rank': 3, 'cmd': 'request', 'name': 'showers', 'state': 'entering', 'id': 1, 'tool': 'manager'}
+3 : showers manager confirmation received from 0 - 1 out of 14
+1 : showers manager confirmation received from 5 - 5 out of 14
+3 : showers manager confirmation received from 2 - 2 out of 14
+1 : showers manager confirmation received from 6 - 6 out of 14
+1 : showers manager confirmation received from 7 - 7 out of 14
+3 : showers manager confirmation received from 4 - 3 out of 14
+1 : Request sent {'state': 'exiting', 'name': 'showers', 'cmd': 'request', 'tool': 'manager', 'rank': 1, 'id': 1, 'type': 'F'}
+1 : showers manager confirmation received from 8 - 8 out of 14
+3 : showers manager confirmation received from 5 - 4 out of 14
+3 : showers manager confirmation received from 6 - 5 out of 14
+3 : showers manager confirmation received from 7 - 6 out of 14
+3 : showers manager confirmation received from 8 - 7 out of 14
+3 : showers manager confirmation received from 9 - 8 out of 14
+1 : showers manager confirmation received from 9 - 9 out of 14
+3 : showers manager confirmation received from 10 - 9 out of 14
+1 : showers manager confirmation received from 10 - 10 out of 14
+1 : showers manager confirmation received from 14 - 11 out of 14
+3 : showers manager confirmation received from 14 - 10 out of 14
+3 : showers manager confirmation received from 13 - 11 out of 14
+1 : showers manager confirmation received from 13 - 12 out of 14
+1 : showers manager confirmation received from 12 - 13 out of 14
+3 : showers manager confirmation received from 12 - 12 out of 14
+3 : showers manager confirmation received from 1 - 13 out of 14
+3 : showers manager confirmation received from 11 - 14 out of 14
+3 : >>Entering showers 1
+1 : showers manager confirmation received from 11 - 14 out of 14
+3 : >>Exiting showers queue section
+3 :  Sending confirms to: [4, 2, 5, 6, 7]
+1 : >>Exiting showers 1
+4 : showers queue confirmation received from 3 - 14 out of 14
+6 : showers queue confirmation received from 3 - 11 out of 14
+2 : showers queue confirmation received from 3 - 13 out of 14
+5 : showers queue confirmation received from 3 - 12 out of 14
+4 : >>Entering showers queue section
+4 : Requesting showers
+4 : Waiting for showers confirm
+7 : showers queue confirmation received from 3 - 10 out of 14
+4 : Request sent {'state': 'entering', 'id': 1, 'tool': 'manager', 'type': 'M', 'cmd': 'request', 'name': 'showers', 'rank': 4}
+4 : showers manager confirmation received from 0 - 1 out of 14
+4 : showers manager confirmation received from 2 - 2 out of 14
+4 : showers manager confirmation received from 5 - 3 out of 14
+4 : showers manager confirmation received from 6 - 4 out of 14
+4 : showers manager confirmation received from 7 - 5 out of 14
+4 : showers manager confirmation received from 11 - 6 out of 14
+4 : showers manager confirmation received from 8 - 7 out of 14
+4 : showers manager confirmation received from 12 - 8 out of 14
+4 : showers manager confirmation received from 10 - 9 out of 14
+4 : showers manager confirmation received from 13 - 10 out of 14
+4 : showers manager confirmation received from 14 - 11 out of 14
+4 : showers manager confirmation received from 9 - 12 out of 14
+4 : showers manager confirmation received from 1 - 13 out of 14
+4 : showers manager confirmation received from 3 - 14 out of 14
+4 : >>Entering showers 1
+4 : >>Exiting showers queue section
+4 :  Sending confirms to: [2, 5, 6, 7]
+5 : showers queue confirmation received from 4 - 13 out of 14
+6 : showers queue confirmation received from 4 - 12 out of 14
+2 : showers queue confirmation received from 4 - 14 out of 14
+2 : >>Entering showers queue section
+7 : showers queue confirmation received from 4 - 11 out of 14
+2 : Requesting showers
+2 : Waiting for showers confirm
+2 : Request sent {'name': 'showers', 'state': 'entering', 'id': 1, 'tool': 'manager', 'type': 'M', 'rank': 2, 'cmd': 'request'}
+2 : showers manager confirmation received from 0 - 1 out of 14
+2 : showers manager confirmation received from 1 - 2 out of 14
+2 : showers manager confirmation received from 3 - 3 out of 14
+2 : showers manager confirmation received from 5 - 4 out of 14
+2 : showers manager confirmation received from 6 - 5 out of 14
+2 : showers manager confirmation received from 7 - 6 out of 14
+2 : showers manager confirmation received from 9 - 7 out of 14
+2 : showers manager confirmation received from 8 - 8 out of 14
+2 : showers manager confirmation received from 11 - 9 out of 14
+2 : showers manager confirmation received from 10 - 10 out of 14
+2 : showers manager confirmation received from 13 - 11 out of 14
+2 : showers manager confirmation received from 14 - 12 out of 14
+2 : showers manager confirmation received from 4 - 13 out of 14
+2 : showers manager confirmation received from 12 - 14 out of 14
+2 : >>Entering showers 1
+2 : >>Exiting showers queue section
+2 :  Sending confirms to: [5, 6, 7]
+5 : showers queue confirmation received from 2 - 14 out of 14
+5 : >>Entering showers queue section
+6 : showers queue confirmation received from 2 - 13 out of 14
+7 : showers queue confirmation received from 2 - 12 out of 14
+5 : Requesting showers
+5 : Waiting for showers free
+0 : Request sent {'type': 'F', 'tool': 'manager', 'name': 'lockers', 'cmd': 'request', 'state': 'exiting', 'rank': 0, 'id': 2}
+8 : Requesting lockers
+8 : Waiting for lockers confirm
+0 : lockers manager confirmation received from 2 - 1 out of 14
+8 : Request sent {'tool': 'manager', 'state': 'entering', 'id': 2, 'type': 'F', 'name': 'lockers', 'cmd': 'request', 'rank': 8}
+0 : lockers manager confirmation received from 1 - 2 out of 14
+8 : lockers manager confirmation received from 1 - 1 out of 14
+0 : lockers manager confirmation received from 3 - 3 out of 14
+8 : lockers manager confirmation received from 2 - 2 out of 14
+0 : lockers manager confirmation received from 4 - 4 out of 14
+8 : lockers manager confirmation received from 3 - 3 out of 14
+8 : lockers manager confirmation received from 4 - 4 out of 14
+8 : lockers manager confirmation received from 6 - 5 out of 14
+0 : lockers manager confirmation received from 5 - 5 out of 14
+8 : lockers manager confirmation received from 7 - 6 out of 14
+8 : lockers manager confirmation received from 9 - 7 out of 14
+8 : lockers manager confirmation received from 12 - 8 out of 14
+0 : lockers manager confirmation received from 6 - 6 out of 14
+8 : lockers manager confirmation received from 13 - 9 out of 14
+8 : lockers manager confirmation received from 14 - 10 out of 14
+0 : lockers manager confirmation received from 7 - 7 out of 14
+8 : lockers manager confirmation received from 10 - 11 out of 14
+8 : lockers manager confirmation received from 5 - 12 out of 14
+8 : lockers manager confirmation received from 11 - 13 out of 14
+0 : lockers manager confirmation received from 13 - 8 out of 14
+0 : lockers manager confirmation received from 12 - 9 out of 14
+0 : lockers manager confirmation received from 14 - 10 out of 14
+0 : lockers manager confirmation received from 8 - 11 out of 14
+0 : lockers manager confirmation received from 9 - 12 out of 14
+0 : lockers manager confirmation received from 10 - 13 out of 14
+8 : lockers manager confirmation received from 0 - 14 out of 14
+8 : >>Entering lockers 2
+8 : >>Exiting lockers queue section
+8 :  Sending confirms to: [10, 14, 12, 9, 13, 11]
+0 : lockers manager confirmation received from 11 - 14 out of 14
+10 : lockers queue confirmation received from 8 - 13 out of 14
+12 : lockers queue confirmation received from 8 - 11 out of 14
+9 : lockers queue confirmation received from 8 - 14 out of 14
+14 : lockers queue confirmation received from 8 - 9 out of 14
+13 : lockers queue confirmation received from 8 - 10 out of 14
+11 : lockers queue confirmation received from 8 - 12 out of 14
+9 : >>Entering lockers queue section
+9 : Requesting lockers
+9 : Waiting for lockers confirm
+0 : >>Exiting lockers 2
+9 : Request sent {'id': 1, 'rank': 9, 'state': 'entering', 'name': 'lockers', 'cmd': 'request', 'type': 'M', 'tool': 'manager'}
+9 : lockers manager confirmation received from 1 - 1 out of 14
+9 : lockers manager confirmation received from 2 - 2 out of 14
+9 : lockers manager confirmation received from 3 - 3 out of 14
+9 : lockers manager confirmation received from 5 - 4 out of 14
+9 : lockers manager confirmation received from 7 - 5 out of 14
+9 : lockers manager confirmation received from 11 - 6 out of 14
+9 : lockers manager confirmation received from 12 - 7 out of 14
+9 : lockers manager confirmation received from 13 - 8 out of 14
+9 : lockers manager confirmation received from 14 - 9 out of 14
+9 : lockers manager confirmation received from 10 - 10 out of 14
+9 : lockers manager confirmation received from 4 - 11 out of 14
+9 : lockers manager confirmation received from 6 - 12 out of 14
+9 : lockers manager confirmation received from 8 - 13 out of 14
+9 : lockers manager confirmation received from 0 - 14 out of 14
+9 : >>Entering lockers 1
+9 : >>Exiting lockers queue section
+9 :  Sending confirms to: [10, 12, 14, 13, 11]
+10 : lockers queue confirmation received from 9 - 14 out of 14
+12 : lockers queue confirmation received from 9 - 12 out of 14
+11 : lockers queue confirmation received from 9 - 13 out of 14
+14 : lockers queue confirmation received from 9 - 10 out of 14
+13 : lockers queue confirmation received from 9 - 11 out of 14
+10 : >>Entering lockers queue section
+10 : Requesting lockers
+10 : Waiting for lockers free
+1 : Request sent {'state': 'exiting', 'name': 'lockers', 'cmd': 'request', 'tool': 'manager', 'rank': 1, 'id': 2, 'type': 'F'}
+10 : Requesting lockers
+10 : Waiting for lockers free
+1 : lockers manager confirmation received from 0 - 1 out of 14
+1 : lockers manager confirmation received from 2 - 2 out of 14
+1 : lockers manager confirmation received from 3 - 3 out of 14
+1 : lockers manager confirmation received from 4 - 4 out of 14
+1 : lockers manager confirmation received from 5 - 5 out of 14
+1 : lockers manager confirmation received from 6 - 6 out of 14
+1 : lockers manager confirmation received from 7 - 7 out of 14
+1 : lockers manager confirmation received from 11 - 8 out of 14
+1 : lockers manager confirmation received from 9 - 9 out of 14
+1 : lockers manager confirmation received from 12 - 10 out of 14
+1 : lockers manager confirmation received from 8 - 11 out of 14
+1 : lockers manager confirmation received from 14 - 12 out of 14
+1 : lockers manager confirmation received from 10 - 13 out of 14
+1 : lockers manager confirmation received from 13 - 14 out of 14
+1 : >>Exiting lockers 2
+5 : Requesting showers
+3 : showers manager confirmation received from 0 - 1 out of 14
+5 : Waiting for showers confirm
+3 : showers manager confirmation received from 2 - 2 out of 14
+5 : Request sent {'rank': 5, 'cmd': 'request', 'tool': 'manager', 'id': 1, 'type': 'M', 'name': 'showers', 'state': 'entering'}
+3 : Request sent {'type': 'M', 'rank': 3, 'cmd': 'request', 'name': 'showers', 'state': 'exiting', 'id': 1, 'tool': 'manager'}
+5 : showers manager confirmation received from 2 - 1 out of 14
+3 : showers manager confirmation received from 5 - 3 out of 14
+3 : showers manager confirmation received from 6 - 4 out of 14
+5 : showers manager confirmation received from 7 - 2 out of 14
+3 : showers manager confirmation received from 4 - 5 out of 14
+3 : showers manager confirmation received from 7 - 6 out of 14
+5 : showers manager confirmation received from 10 - 3 out of 14
+5 : showers manager confirmation received from 0 - 4 out of 14
+3 : showers manager confirmation received from 10 - 7 out of 14
+3 : showers manager confirmation received from 11 - 8 out of 14
+5 : showers manager confirmation received from 11 - 5 out of 14
+3 : showers manager confirmation received from 12 - 9 out of 14
+5 : showers manager confirmation received from 13 - 6 out of 14
+3 : showers manager confirmation received from 13 - 10 out of 14
+5 : showers manager confirmation received from 14 - 7 out of 14
+3 : showers manager confirmation received from 14 - 11 out of 14
+5 : showers manager confirmation received from 12 - 8 out of 14
+3 : showers manager confirmation received from 9 - 12 out of 14
+5 : showers manager confirmation received from 9 - 9 out of 14
+3 : showers manager confirmation received from 8 - 13 out of 14
+5 : showers manager confirmation received from 4 - 10 out of 14
+5 : showers manager confirmation received from 8 - 11 out of 14
+5 : showers manager confirmation received from 3 - 12 out of 14
+5 : showers manager confirmation received from 6 - 13 out of 14
+3 : showers manager confirmation received from 1 - 14 out of 14
+3 : >>Exiting showers 1
+5 : showers manager confirmation received from 1 - 14 out of 14
+5 : >>Entering showers 1
+5 : >>Exiting showers queue section
+5 :  Sending confirms to: [6, 7]
+7 : showers queue confirmation received from 5 - 13 out of 14
+6 : showers queue confirmation received from 5 - 14 out of 14
+6 : >>Entering showers queue section
+6 : Requesting showers
+6 : Waiting for showers free
+6 : Requesting showers
+4 : Request sent {'state': 'exiting', 'id': 1, 'tool': 'manager', 'type': 'M', 'cmd': 'request', 'name': 'showers', 'rank': 4}
+6 : Waiting for showers confirm
+4 : showers manager confirmation received from 0 - 1 out of 14
+4 : showers manager confirmation received from 1 - 2 out of 14
+4 : showers manager confirmation received from 2 - 3 out of 14
+4 : showers manager confirmation received from 5 - 4 out of 14
+4 : showers manager confirmation received from 6 - 5 out of 14
+4 : showers manager confirmation received from 7 - 6 out of 14
+4 : showers manager confirmation received from 11 - 7 out of 14
+4 : showers manager confirmation received from 8 - 8 out of 14
+4 : showers manager confirmation received from 13 - 9 out of 14
+4 : showers manager confirmation received from 10 - 10 out of 14
+4 : showers manager confirmation received from 14 - 11 out of 14
+4 : showers manager confirmation received from 3 - 12 out of 14
+4 : showers manager confirmation received from 12 - 13 out of 14
+4 : showers manager confirmation received from 9 - 14 out of 14
+4 : >>Exiting showers 1
+6 : Request sent {'type': 'M', 'rank': 6, 'tool': 'manager', 'name': 'showers', 'cmd': 'request', 'state': 'entering', 'id': 1}
+6 : showers manager confirmation received from 0 - 1 out of 14
+6 : showers manager confirmation received from 1 - 2 out of 14
+6 : showers manager confirmation received from 2 - 3 out of 14
+6 : showers manager confirmation received from 3 - 4 out of 14
+6 : showers manager confirmation received from 5 - 5 out of 14
+6 : showers manager confirmation received from 7 - 6 out of 14
+6 : showers manager confirmation received from 9 - 7 out of 14
+6 : showers manager confirmation received from 11 - 8 out of 14
+6 : showers manager confirmation received from 8 - 9 out of 14
+6 : showers manager confirmation received from 12 - 10 out of 14
+6 : showers manager confirmation received from 10 - 11 out of 14
+6 : showers manager confirmation received from 13 - 12 out of 14
+6 : showers manager confirmation received from 14 - 13 out of 14
+2 : Request sent {'name': 'showers', 'state': 'exiting', 'id': 1, 'tool': 'manager', 'type': 'M', 'rank': 2, 'cmd': 'request'}
+2 : showers manager confirmation received from 0 - 1 out of 14
+2 : showers manager confirmation received from 1 - 2 out of 14
+2 : showers manager confirmation received from 3 - 3 out of 14
+2 : showers manager confirmation received from 5 - 4 out of 14
+2 : showers manager confirmation received from 6 - 5 out of 14
+2 : showers manager confirmation received from 7 - 6 out of 14
+2 : showers manager confirmation received from 8 - 7 out of 14
+2 : showers manager confirmation received from 11 - 8 out of 14
+2 : showers manager confirmation received from 10 - 9 out of 14
+2 : showers manager confirmation received from 12 - 10 out of 14
+2 : showers manager confirmation received from 13 - 11 out of 14
+2 : showers manager confirmation received from 14 - 12 out of 14
+2 : showers manager confirmation received from 9 - 13 out of 14
+2 : showers manager confirmation received from 4 - 14 out of 14
+2 : >>Exiting showers 1
+6 : showers manager confirmation received from 4 - 14 out of 14
+6 : >>Entering showers 1
+6 : >>Exiting showers queue section
+6 :  Sending confirms to: [7]
+7 : showers queue confirmation received from 6 - 14 out of 14
+7 : >>Entering showers queue section
+7 : Requesting showers
+7 : Waiting for showers free
+8 : Request sent {'tool': 'queue', 'cmd': 'request', 'rank': 8, 'name': 'showers'}
+8 : showers queue confirmation received from 2 - 1 out of 14
+8 : showers queue confirmation received from 1 - 2 out of 14
+8 : showers queue confirmation received from 3 - 3 out of 14
+8 : showers queue confirmation received from 4 - 4 out of 14
+8 : showers queue confirmation received from 5 - 5 out of 14
+8 : showers queue confirmation received from 13 - 6 out of 14
+8 : showers queue confirmation received from 12 - 7 out of 14
+8 : showers queue confirmation received from 9 - 8 out of 14
+8 : showers queue confirmation received from 6 - 9 out of 14
+8 : showers queue confirmation received from 11 - 10 out of 14
+8 : showers queue confirmation received from 14 - 11 out of 14
+8 : showers queue confirmation received from 0 - 12 out of 14
+8 : showers queue confirmation received from 10 - 13 out of 14
+9 : Request sent {'name': 'showers', 'cmd': 'request', 'tool': 'queue', 'rank': 9}
+9 : showers queue confirmation received from 0 - 1 out of 14
+9 : showers queue confirmation received from 1 - 2 out of 14
+9 : showers queue confirmation received from 2 - 3 out of 14
+9 : showers queue confirmation received from 3 - 4 out of 14
+9 : showers queue confirmation received from 4 - 5 out of 14
+9 : showers queue confirmation received from 5 - 6 out of 14
+9 : showers queue confirmation received from 6 - 7 out of 14
+9 : showers queue confirmation received from 10 - 8 out of 14
+9 : showers queue confirmation received from 12 - 9 out of 14
+9 : showers queue confirmation received from 13 - 10 out of 14
+9 : showers queue confirmation received from 11 - 11 out of 14
+9 : showers queue confirmation received from 14 - 12 out of 14
+3 : lockers manager confirmation received from 0 - 1 out of 14
+10 : Requesting lockers
+10 : Waiting for lockers confirm
+3 : Request sent {'type': 'M', 'rank': 3, 'cmd': 'request', 'name': 'lockers', 'state': 'exiting', 'id': 0, 'tool': 'manager'}
+3 : lockers manager confirmation received from 2 - 2 out of 14
+3 : lockers manager confirmation received from 4 - 3 out of 14
+10 : Request sent {'type': 'M', 'tool': 'manager', 'id': 0, 'name': 'lockers', 'rank': 10, 'cmd': 'request', 'state': 'entering'}
+3 : lockers manager confirmation received from 5 - 4 out of 14
+10 : lockers manager confirmation received from 2 - 1 out of 14
+3 : lockers manager confirmation received from 7 - 5 out of 14
+10 : lockers manager confirmation received from 4 - 2 out of 14
+3 : lockers manager confirmation received from 6 - 6 out of 14
+10 : lockers manager confirmation received from 5 - 3 out of 14
+3 : lockers manager confirmation received from 9 - 7 out of 14
+10 : lockers manager confirmation received from 1 - 4 out of 14
+3 : lockers manager confirmation received from 1 - 8 out of 14
+10 : lockers manager confirmation received from 9 - 5 out of 14
+3 : lockers manager confirmation received from 8 - 9 out of 14
+10 : lockers manager confirmation received from 11 - 6 out of 14
+3 : lockers manager confirmation received from 10 - 10 out of 14
+10 : lockers manager confirmation received from 8 - 7 out of 14
+3 : lockers manager confirmation received from 11 - 11 out of 14
+10 : lockers manager confirmation received from 14 - 8 out of 14
+3 : lockers manager confirmation received from 12 - 12 out of 14
+10 : lockers manager confirmation received from 13 - 9 out of 14
+10 : lockers manager confirmation received from 12 - 10 out of 14
+3 : lockers manager confirmation received from 14 - 13 out of 14
+10 : lockers manager confirmation received from 7 - 11 out of 14
+3 : lockers manager confirmation received from 13 - 14 out of 14
+3 : >>Exiting lockers 0
+10 : lockers manager confirmation received from 3 - 12 out of 14
+10 : lockers manager confirmation received from 6 - 13 out of 14
+10 : lockers manager confirmation received from 0 - 14 out of 14
+10 : >>Entering lockers 0
+10 : >>Exiting lockers queue section
+10 :  Sending confirms to: [14, 12, 13, 11]
+12 : lockers queue confirmation received from 10 - 13 out of 14
+13 : lockers queue confirmation received from 10 - 12 out of 14
+11 : lockers queue confirmation received from 10 - 14 out of 14
+11 : >>Entering lockers queue section
+11 : Requesting lockers
+11 : Waiting for lockers confirm
+7 : Requesting showers
+7 : Waiting for showers free
+5 : Request sent {'rank': 5, 'cmd': 'request', 'tool': 'manager', 'id': 1, 'type': 'M', 'name': 'showers', 'state': 'exiting'}
+11 : Request sent {'cmd': 'request', 'type': 'F', 'rank': 11, 'state': 'entering', 'id': 2, 'tool': 'manager', 'name': 'lockers'}
+5 : showers manager confirmation received from 1 - 1 out of 14
+14 : lockers queue confirmation received from 10 - 11 out of 14
+5 : showers manager confirmation received from 2 - 2 out of 14
+5 : showers manager confirmation received from 4 - 3 out of 14
+11 : lockers manager confirmation received from 2 - 1 out of 14
+5 : showers manager confirmation received from 7 - 4 out of 14
+5 : showers manager confirmation received from 9 - 5 out of 14
+11 : lockers manager confirmation received from 1 - 2 out of 14
+5 : showers manager confirmation received from 12 - 6 out of 14
+5 : showers manager confirmation received from 13 - 7 out of 14
+11 : lockers manager confirmation received from 4 - 3 out of 14
+5 : showers manager confirmation received from 0 - 8 out of 14
+11 : lockers manager confirmation received from 7 - 4 out of 14
+5 : showers manager confirmation received from 8 - 9 out of 14
+11 : lockers manager confirmation received from 9 - 5 out of 14
+5 : showers manager confirmation received from 11 - 10 out of 14
+11 : lockers manager confirmation received from 12 - 6 out of 14
+5 : showers manager confirmation received from 6 - 11 out of 14
+5 : showers manager confirmation received from 14 - 12 out of 14
+11 : lockers manager confirmation received from 13 - 7 out of 14
+4 : lockers manager confirmation received from 1 - 1 out of 14
+11 : lockers manager confirmation received from 8 - 8 out of 14
+5 : showers manager confirmation received from 10 - 13 out of 14
+4 : lockers manager confirmation received from 2 - 2 out of 14
+11 : lockers manager confirmation received from 14 - 9 out of 14
+4 : Request sent {'state': 'exiting', 'id': 0, 'tool': 'manager', 'type': 'M', 'cmd': 'request', 'name': 'lockers', 'rank': 4}
+11 : lockers manager confirmation received from 5 - 10 out of 14
+4 : lockers manager confirmation received from 5 - 3 out of 14
+11 : lockers manager confirmation received from 6 - 11 out of 14
+11 : lockers manager confirmation received from 0 - 12 out of 14
+4 : lockers manager confirmation received from 7 - 4 out of 14
+4 : lockers manager confirmation received from 8 - 5 out of 14
+11 : lockers manager confirmation received from 10 - 13 out of 14
+4 : lockers manager confirmation received from 6 - 6 out of 14
+4 : lockers manager confirmation received from 0 - 7 out of 14
+4 : lockers manager confirmation received from 9 - 8 out of 14
+4 : lockers manager confirmation received from 13 - 9 out of 14
+4 : lockers manager confirmation received from 10 - 10 out of 14
+4 : lockers manager confirmation received from 14 - 11 out of 14
+4 : lockers manager confirmation received from 11 - 12 out of 14
+4 : lockers manager confirmation received from 12 - 13 out of 14
+5 : showers manager confirmation received from 3 - 14 out of 14
+5 : >>Exiting showers 1
+11 : lockers manager confirmation received from 3 - 14 out of 14
+11 : >>Entering lockers 2
+11 : >>Exiting lockers queue section
+4 : lockers manager confirmation received from 3 - 14 out of 14
+11 :  Sending confirms to: [12, 13, 14]
+4 : >>Exiting lockers 0
+13 : lockers queue confirmation received from 11 - 13 out of 14
+14 : lockers queue confirmation received from 11 - 12 out of 14
+2 : lockers manager confirmation received from 0 - 1 out of 14
+2 : Request sent {'name': 'lockers', 'state': 'exiting', 'id': 0, 'tool': 'manager', 'type': 'M', 'rank': 2, 'cmd': 'request'}
+2 : lockers manager confirmation received from 1 - 2 out of 14
+2 : lockers manager confirmation received from 3 - 3 out of 14
+2 : lockers manager confirmation received from 5 - 4 out of 14
+2 : lockers manager confirmation received from 6 - 5 out of 14
+2 : lockers manager confirmation received from 7 - 6 out of 14
+2 : lockers manager confirmation received from 8 - 7 out of 14
+2 : lockers manager confirmation received from 9 - 8 out of 14
+2 : lockers manager confirmation received from 10 - 9 out of 14
+2 : lockers manager confirmation received from 11 - 10 out of 14
+2 : lockers manager confirmation received from 13 - 11 out of 14
+2 : lockers manager confirmation received from 14 - 12 out of 14
+12 : lockers queue confirmation received from 11 - 14 out of 14
+12 : >>Entering lockers queue section
+12 : Requesting lockers
+12 : Waiting for lockers confirm
+12 : Request sent {'type': 'M', 'rank': 12, 'cmd': 'request', 'name': 'lockers', 'state': 'entering', 'id': 0, 'tool': 'manager'}
+2 : lockers manager confirmation received from 12 - 13 out of 14
+12 : lockers manager confirmation received from 1 - 1 out of 14
+12 : lockers manager confirmation received from 2 - 2 out of 14
+12 : lockers manager confirmation received from 0 - 3 out of 14
+12 : lockers manager confirmation received from 5 - 4 out of 14
+12 : lockers manager confirmation received from 6 - 5 out of 14
+12 : lockers manager confirmation received from 7 - 6 out of 14
+12 : lockers manager confirmation received from 9 - 7 out of 14
+12 : lockers manager confirmation received from 8 - 8 out of 14
+12 : lockers manager confirmation received from 11 - 9 out of 14
+12 : lockers manager confirmation received from 10 - 10 out of 14
+12 : lockers manager confirmation received from 13 - 11 out of 14
+12 : lockers manager confirmation received from 14 - 12 out of 14
+12 : lockers manager confirmation received from 3 - 13 out of 14
+2 : lockers manager confirmation received from 4 - 14 out of 14
+2 : >>Exiting lockers 0
+12 : lockers manager confirmation received from 4 - 14 out of 14
+12 : >>Entering lockers 0
+12 : >>Exiting lockers queue section
+12 :  Sending confirms to: [14, 13]
+14 : lockers queue confirmation received from 12 - 13 out of 14
+13 : lockers queue confirmation received from 12 - 14 out of 14
+13 : >>Entering lockers queue section
+13 : Requesting lockers
+13 : Waiting for lockers confirm
+13 : Request sent {'cmd': 'request', 'rank': 13, 'tool': 'manager', 'id': 0, 'state': 'entering', 'name': 'lockers', 'type': 'M'}
+13 : lockers manager confirmation received from 2 - 1 out of 14
+13 : lockers manager confirmation received from 0 - 2 out of 14
+13 : lockers manager confirmation received from 4 - 3 out of 14
+13 : lockers manager confirmation received from 5 - 4 out of 14
+13 : lockers manager confirmation received from 7 - 5 out of 14
+13 : lockers manager confirmation received from 6 - 6 out of 14
+13 : lockers manager confirmation received from 9 - 7 out of 14
+13 : lockers manager confirmation received from 11 - 8 out of 14
+13 : lockers manager confirmation received from 8 - 9 out of 14
+13 : lockers manager confirmation received from 10 - 10 out of 14
+13 : lockers manager confirmation received from 14 - 11 out of 14
+13 : lockers manager confirmation received from 1 - 12 out of 14
+13 : lockers manager confirmation received from 3 - 13 out of 14
+13 : lockers manager confirmation received from 12 - 14 out of 14
+13 : >>Entering lockers 0
+13 : >>Exiting lockers queue section
+13 :  Sending confirms to: [14]
+14 : lockers queue confirmation received from 13 - 14 out of 14
+14 : >>Entering lockers queue section
+14 : Requesting lockers
+14 : Waiting for lockers free
+7 : Requesting showers
+6 : Request sent {'type': 'M', 'rank': 6, 'tool': 'manager', 'name': 'showers', 'cmd': 'request', 'state': 'exiting', 'id': 1}
+7 : Waiting for showers confirm
+6 : showers manager confirmation received from 1 - 1 out of 14
+7 : Request sent {'state': 'entering', 'type': 'F', 'tool': 'manager', 'id': 1, 'name': 'showers', 'rank': 7, 'cmd': 'request'}
+6 : showers manager confirmation received from 0 - 2 out of 14
+7 : showers manager confirmation received from 1 - 1 out of 14
+7 : showers manager confirmation received from 2 - 2 out of 14
+7 : showers manager confirmation received from 3 - 3 out of 14
+7 : showers manager confirmation received from 4 - 4 out of 14
+6 : showers manager confirmation received from 3 - 3 out of 14
+7 : showers manager confirmation received from 5 - 5 out of 14
+7 : showers manager confirmation received from 9 - 6 out of 14
+7 : showers manager confirmation received from 11 - 7 out of 14
+6 : showers manager confirmation received from 4 - 4 out of 14
+7 : showers manager confirmation received from 8 - 8 out of 14
+7 : showers manager confirmation received from 12 - 9 out of 14
+7 : showers manager confirmation received from 14 - 10 out of 14
+7 : showers manager confirmation received from 10 - 11 out of 14
+6 : showers manager confirmation received from 5 - 5 out of 14
+7 : showers manager confirmation received from 0 - 12 out of 14
+6 : showers manager confirmation received from 7 - 6 out of 14
+6 : showers manager confirmation received from 9 - 7 out of 14
+6 : showers manager confirmation received from 8 - 8 out of 14
+6 : showers manager confirmation received from 11 - 9 out of 14
+6 : showers manager confirmation received from 12 - 10 out of 14
+6 : showers manager confirmation received from 10 - 11 out of 14
+6 : showers manager confirmation received from 14 - 12 out of 14
+6 : showers manager confirmation received from 2 - 13 out of 14
+7 : showers manager confirmation received from 6 - 13 out of 14
+6 : showers manager confirmation received from 13 - 14 out of 14
+7 : showers manager confirmation received from 13 - 14 out of 14
+7 : >>Entering showers 1
+7 : >>Exiting showers queue section
+7 :  Sending confirms to: [8, 9]
+6 : >>Exiting showers 1
+9 : showers queue confirmation received from 7 - 13 out of 14
+8 : showers queue confirmation received from 7 - 14 out of 14
+8 : >>Entering showers queue section
+8 : Requesting showers
+8 : Waiting for showers confirm
+8 : Request sent {'tool': 'manager', 'state': 'entering', 'id': 1, 'type': 'F', 'name': 'showers', 'cmd': 'request', 'rank': 8}
+8 : showers manager confirmation received from 2 - 1 out of 14
+8 : showers manager confirmation received from 3 - 2 out of 14
+8 : showers manager confirmation received from 4 - 3 out of 14
+8 : showers manager confirmation received from 9 - 4 out of 14
+8 : showers manager confirmation received from 10 - 5 out of 14
+8 : showers manager confirmation received from 11 - 6 out of 14
+8 : showers manager confirmation received from 12 - 7 out of 14
+8 : showers manager confirmation received from 13 - 8 out of 14
+8 : showers manager confirmation received from 14 - 9 out of 14
+8 : showers manager confirmation received from 5 - 10 out of 14
+8 : showers manager confirmation received from 0 - 11 out of 14
+8 : showers manager confirmation received from 1 - 12 out of 14
+8 : showers manager confirmation received from 7 - 13 out of 14
+8 : showers manager confirmation received from 6 - 14 out of 14
+8 : >>Entering showers 1
+8 : >>Exiting showers queue section
+8 :  Sending confirms to: [9]
+9 : showers queue confirmation received from 8 - 14 out of 14
+9 : >>Entering showers queue section
+9 : Requesting showers
+9 : Waiting for showers free
+10 : Request sent {'tool': 'queue', 'rank': 10, 'name': 'showers', 'cmd': 'request'}
+10 : showers queue confirmation received from 1 - 1 out of 14
+10 : showers queue confirmation received from 0 - 2 out of 14
+10 : showers queue confirmation received from 2 - 3 out of 14
+10 : showers queue confirmation received from 4 - 4 out of 14
+10 : showers queue confirmation received from 5 - 5 out of 14
+10 : showers queue confirmation received from 8 - 6 out of 14
+10 : showers queue confirmation received from 11 - 7 out of 14
+10 : showers queue confirmation received from 6 - 8 out of 14
+10 : showers queue confirmation received from 13 - 9 out of 14
+10 : showers queue confirmation received from 3 - 10 out of 14
+10 : showers queue confirmation received from 14 - 11 out of 14
+10 : showers queue confirmation received from 12 - 12 out of 14
+10 : showers queue confirmation received from 7 - 13 out of 14
+5 : lockers manager confirmation received from 0 - 1 out of 14
+5 : Request sent {'rank': 5, 'cmd': 'request', 'tool': 'manager', 'id': 1, 'type': 'M', 'name': 'lockers', 'state': 'exiting'}
+14 : Requesting lockers
+14 : Waiting for lockers free
+5 : lockers manager confirmation received from 1 - 2 out of 14
+5 : lockers manager confirmation received from 2 - 3 out of 14
+5 : lockers manager confirmation received from 4 - 4 out of 14
+5 : lockers manager confirmation received from 6 - 5 out of 14
+5 : lockers manager confirmation received from 7 - 6 out of 14
+5 : lockers manager confirmation received from 3 - 7 out of 14
+11 : Request sent {'cmd': 'request', 'tool': 'queue', 'name': 'showers', 'rank': 11}
+5 : lockers manager confirmation received from 10 - 8 out of 14
+5 : lockers manager confirmation received from 9 - 9 out of 14
+11 : showers queue confirmation received from 0 - 1 out of 14
+11 : showers queue confirmation received from 1 - 2 out of 14
+11 : showers queue confirmation received from 2 - 3 out of 14
+11 : showers queue confirmation received from 4 - 4 out of 14
+11 : showers queue confirmation received from 7 - 5 out of 14
+11 : showers queue confirmation received from 6 - 6 out of 14
+11 : showers queue confirmation received from 8 - 7 out of 14
+11 : showers queue confirmation received from 3 - 8 out of 14
+11 : showers queue confirmation received from 13 - 9 out of 14
+11 : showers queue confirmation received from 12 - 10 out of 14
+11 : showers queue confirmation received from 14 - 11 out of 14
+5 : lockers manager confirmation received from 8 - 10 out of 14
+5 : lockers manager confirmation received from 11 - 11 out of 14
+5 : lockers manager confirmation received from 12 - 12 out of 14
+12 : showers queue confirmation received from 1 - 1 out of 14
+12 : Request sent {'name': 'showers', 'rank': 12, 'cmd': 'request', 'tool': 'queue'}
+5 : lockers manager confirmation received from 13 - 13 out of 14
+12 : showers queue confirmation received from 2 - 2 out of 14
+5 : lockers manager confirmation received from 14 - 14 out of 14
+12 : showers queue confirmation received from 4 - 3 out of 14
+5 : >>Exiting lockers 1
+12 : showers queue confirmation received from 7 - 4 out of 14
+12 : showers queue confirmation received from 8 - 5 out of 14
+12 : showers queue confirmation received from 3 - 6 out of 14
+12 : showers queue confirmation received from 13 - 7 out of 14
+12 : showers queue confirmation received from 14 - 8 out of 14
+12 : showers queue confirmation received from 6 - 9 out of 14
+12 : showers queue confirmation received from 0 - 10 out of 14
+11 : showers queue confirmation received from 5 - 12 out of 14
+12 : showers queue confirmation received from 5 - 11 out of 14
+13 : Request sent {'tool': 'queue', 'cmd': 'request', 'rank': 13, 'name': 'showers'}
+13 : showers queue confirmation received from 0 - 1 out of 14
+13 : showers queue confirmation received from 1 - 2 out of 14
+13 : showers queue confirmation received from 4 - 3 out of 14
+13 : showers queue confirmation received from 5 - 4 out of 14
+13 : showers queue confirmation received from 7 - 5 out of 14
+13 : showers queue confirmation received from 6 - 6 out of 14
+13 : showers queue confirmation received from 8 - 7 out of 14
+13 : showers queue confirmation received from 14 - 8 out of 14
+13 : showers queue confirmation received from 2 - 9 out of 14
+13 : showers queue confirmation received from 3 - 10 out of 14
+9 : Requesting showers
+9 : Waiting for showers free
+7 : showers manager confirmation received from 0 - 1 out of 14
+7 : Request sent {'state': 'exiting', 'type': 'F', 'tool': 'manager', 'id': 1, 'name': 'showers', 'rank': 7, 'cmd': 'request'}
+7 : showers manager confirmation received from 1 - 2 out of 14
+7 : showers manager confirmation received from 4 - 3 out of 14
+7 : showers manager confirmation received from 5 - 4 out of 14
+7 : showers manager confirmation received from 6 - 5 out of 14
+7 : showers manager confirmation received from 8 - 6 out of 14
+7 : showers manager confirmation received from 9 - 7 out of 14
+7 : showers manager confirmation received from 3 - 8 out of 14
+7 : showers manager confirmation received from 2 - 9 out of 14
+7 : showers manager confirmation received from 10 - 10 out of 14
+7 : showers manager confirmation received from 11 - 11 out of 14
+7 : showers manager confirmation received from 12 - 12 out of 14
+7 : showers manager confirmation received from 14 - 13 out of 14
+7 : showers manager confirmation received from 13 - 14 out of 14
+7 : >>Exiting showers 1
+6 : lockers manager confirmation received from 1 - 1 out of 14
+6 : Request sent {'type': 'M', 'rank': 6, 'tool': 'manager', 'name': 'lockers', 'cmd': 'request', 'state': 'exiting', 'id': 1}
+14 : Requesting lockers
+14 : Waiting for lockers free
+6 : lockers manager confirmation received from 0 - 2 out of 14
+6 : lockers manager confirmation received from 2 - 3 out of 14
+6 : lockers manager confirmation received from 4 - 4 out of 14
+6 : lockers manager confirmation received from 5 - 5 out of 14
+6 : lockers manager confirmation received from 8 - 6 out of 14
+6 : lockers manager confirmation received from 10 - 7 out of 14
+6 : lockers manager confirmation received from 11 - 8 out of 14
+6 : lockers manager confirmation received from 3 - 9 out of 14
+6 : lockers manager confirmation received from 9 - 10 out of 14
+6 : lockers manager confirmation received from 7 - 11 out of 14
+6 : lockers manager confirmation received from 12 - 12 out of 14
+6 : lockers manager confirmation received from 14 - 13 out of 14
+6 : lockers manager confirmation received from 13 - 14 out of 14
+6 : >>Exiting lockers 1
+9 : Requesting showers
+8 : Request sent {'tool': 'manager', 'state': 'exiting', 'id': 1, 'type': 'F', 'name': 'showers', 'cmd': 'request', 'rank': 8}
+9 : Waiting for showers confirm
+8 : showers manager confirmation received from 0 - 1 out of 14
+8 : showers manager confirmation received from 1 - 2 out of 14
+8 : showers manager confirmation received from 4 - 3 out of 14
+9 : Request sent {'id': 1, 'rank': 9, 'state': 'entering', 'name': 'showers', 'cmd': 'request', 'type': 'M', 'tool': 'manager'}
+8 : showers manager confirmation received from 5 - 4 out of 14
+8 : showers manager confirmation received from 7 - 5 out of 14
+8 : showers manager confirmation received from 9 - 6 out of 14
+8 : showers manager confirmation received from 10 - 7 out of 14
+8 : showers manager confirmation received from 11 - 8 out of 14
+9 : showers manager confirmation received from 1 - 1 out of 14
+8 : showers manager confirmation received from 13 - 9 out of 14
+8 : showers manager confirmation received from 6 - 10 out of 14
+9 : showers manager confirmation received from 0 - 2 out of 14
+8 : showers manager confirmation received from 14 - 11 out of 14
+8 : showers manager confirmation received from 3 - 12 out of 14
+9 : showers manager confirmation received from 7 - 3 out of 14
+8 : showers manager confirmation received from 12 - 13 out of 14
+9 : showers manager confirmation received from 10 - 4 out of 14
+8 : showers manager confirmation received from 2 - 14 out of 14
+8 : >>Exiting showers 1
+9 : showers manager confirmation received from 11 - 5 out of 14
+9 : showers manager confirmation received from 13 - 6 out of 14
+9 : showers manager confirmation received from 12 - 7 out of 14
+9 : showers manager confirmation received from 14 - 8 out of 14
+9 : showers manager confirmation received from 4 - 9 out of 14
+9 : showers manager confirmation received from 3 - 10 out of 14
+9 : showers manager confirmation received from 2 - 11 out of 14
+9 : showers manager confirmation received from 6 - 12 out of 14
+9 : showers manager confirmation received from 8 - 13 out of 14
+9 : showers manager confirmation received from 5 - 14 out of 14
+9 : >>Entering showers 1
+9 : >>Exiting showers queue section
+9 :  Sending confirms to: [10, 11, 12, 13]
+11 : showers queue confirmation received from 9 - 13 out of 14
+13 : showers queue confirmation received from 9 - 11 out of 14
+10 : showers queue confirmation received from 9 - 14 out of 14
+10 : >>Entering showers queue section
+12 : showers queue confirmation received from 9 - 12 out of 14
+10 : Requesting showers
+10 : Waiting for showers confirm
+10 : Request sent {'type': 'M', 'tool': 'manager', 'id': 1, 'name': 'showers', 'rank': 10, 'cmd': 'request', 'state': 'entering'}
+10 : showers manager confirmation received from 0 - 1 out of 14
+10 : showers manager confirmation received from 2 - 2 out of 14
+10 : showers manager confirmation received from 4 - 3 out of 14
+10 : showers manager confirmation received from 5 - 4 out of 14
+10 : showers manager confirmation received from 6 - 5 out of 14
+10 : showers manager confirmation received from 3 - 6 out of 14
+10 : showers manager confirmation received from 7 - 7 out of 14
+10 : showers manager confirmation received from 8 - 8 out of 14
+10 : showers manager confirmation received from 11 - 9 out of 14
+10 : showers manager confirmation received from 12 - 10 out of 14
+10 : showers manager confirmation received from 13 - 11 out of 14
+10 : showers manager confirmation received from 14 - 12 out of 14
+10 : showers manager confirmation received from 1 - 13 out of 14
+10 : showers manager confirmation received from 9 - 14 out of 14
+10 : >>Entering showers 1
+10 : >>Exiting showers queue section
+10 :  Sending confirms to: [11, 12, 13]
+11 : showers queue confirmation received from 10 - 14 out of 14
+11 : >>Entering showers queue section
+12 : showers queue confirmation received from 10 - 13 out of 14
+13 : showers queue confirmation received from 10 - 12 out of 14
+11 : Requesting showers
+11 : Waiting for showers free
+7 : lockers manager confirmation received from 1 - 1 out of 14
+7 : lockers manager confirmation received from 0 - 2 out of 14
+14 : Requesting lockers
+14 : Waiting for lockers confirm
+7 : Request sent {'state': 'exiting', 'type': 'F', 'tool': 'manager', 'id': 2, 'name': 'lockers', 'rank': 7, 'cmd': 'request'}
+7 : lockers manager confirmation received from 2 - 3 out of 14
+7 : lockers manager confirmation received from 4 - 4 out of 14
+7 : lockers manager confirmation received from 5 - 5 out of 14
+14 : Request sent {'name': 'lockers', 'id': 2, 'rank': 14, 'state': 'entering', 'cmd': 'request', 'type': 'F', 'tool': 'manager'}
+7 : lockers manager confirmation received from 11 - 6 out of 14
+7 : lockers manager confirmation received from 6 - 7 out of 14
+7 : lockers manager confirmation received from 10 - 8 out of 14
+14 : lockers manager confirmation received from 0 - 1 out of 14
+7 : lockers manager confirmation received from 12 - 9 out of 14
+7 : lockers manager confirmation received from 9 - 10 out of 14
+14 : lockers manager confirmation received from 1 - 2 out of 14
+7 : lockers manager confirmation received from 8 - 11 out of 14
+7 : lockers manager confirmation received from 13 - 12 out of 14
+14 : lockers manager confirmation received from 2 - 3 out of 14
+7 : lockers manager confirmation received from 14 - 13 out of 14
+14 : lockers manager confirmation received from 4 - 4 out of 14
+7 : lockers manager confirmation received from 3 - 14 out of 14
+7 : >>Exiting lockers 2
+14 : lockers manager confirmation received from 5 - 5 out of 14
+14 : lockers manager confirmation received from 6 - 6 out of 14
+14 : lockers manager confirmation received from 10 - 7 out of 14
+14 : lockers manager confirmation received from 9 - 8 out of 14
+14 : lockers manager confirmation received from 8 - 9 out of 14
+14 : lockers manager confirmation received from 12 - 10 out of 14
+14 : lockers manager confirmation received from 11 - 11 out of 14
+14 : lockers manager confirmation received from 13 - 12 out of 14
+14 : lockers manager confirmation received from 7 - 13 out of 14
+14 : lockers manager confirmation received from 3 - 14 out of 14
+14 : >>Entering lockers 2
+14 : >>Exiting lockers queue section
+14 :  Sending confirms to: []
+9 : Request sent {'id': 1, 'rank': 9, 'state': 'exiting', 'name': 'showers', 'cmd': 'request', 'type': 'M', 'tool': 'manager'}
+11 : Requesting showers
+11 : Waiting for showers free
+9 : showers manager confirmation received from 0 - 1 out of 14
+9 : showers manager confirmation received from 1 - 2 out of 14
+9 : showers manager confirmation received from 3 - 3 out of 14
+9 : showers manager confirmation received from 5 - 4 out of 14
+9 : showers manager confirmation received from 6 - 5 out of 14
+9 : showers manager confirmation received from 7 - 6 out of 14
+9 : showers manager confirmation received from 2 - 7 out of 14
+9 : showers manager confirmation received from 10 - 8 out of 14
+9 : showers manager confirmation received from 11 - 9 out of 14
+9 : showers manager confirmation received from 8 - 10 out of 14
+9 : showers manager confirmation received from 12 - 11 out of 14
+9 : showers manager confirmation received from 14 - 12 out of 14
+9 : showers manager confirmation received from 4 - 13 out of 14
+9 : showers manager confirmation received from 13 - 14 out of 14
+9 : >>Exiting showers 1
+8 : Request sent {'tool': 'manager', 'state': 'exiting', 'id': 2, 'type': 'F', 'name': 'lockers', 'cmd': 'request', 'rank': 8}
+8 : lockers manager confirmation received from 0 - 1 out of 14
+8 : lockers manager confirmation received from 1 - 2 out of 14
+8 : lockers manager confirmation received from 2 - 3 out of 14
+8 : lockers manager confirmation received from 3 - 4 out of 14
+8 : lockers manager confirmation received from 4 - 5 out of 14
+8 : lockers manager confirmation received from 7 - 6 out of 14
+8 : lockers manager confirmation received from 6 - 7 out of 14
+8 : lockers manager confirmation received from 10 - 8 out of 14
+8 : lockers manager confirmation received from 11 - 9 out of 14
+8 : lockers manager confirmation received from 12 - 10 out of 14
+8 : lockers manager confirmation received from 13 - 11 out of 14
+8 : lockers manager confirmation received from 14 - 12 out of 14
+8 : lockers manager confirmation received from 5 - 13 out of 14
+8 : lockers manager confirmation received from 9 - 14 out of 14
+8 : >>Exiting lockers 2
+10 : showers manager confirmation received from 1 - 1 out of 14
+11 : Requesting showers
+10 : showers manager confirmation received from 2 - 2 out of 14
+11 : Waiting for showers confirm
+10 : Request sent {'type': 'M', 'tool': 'manager', 'id': 1, 'name': 'showers', 'rank': 10, 'cmd': 'request', 'state': 'exiting'}
+10 : showers manager confirmation received from 3 - 3 out of 14
+11 : Request sent {'cmd': 'request', 'type': 'F', 'rank': 11, 'state': 'entering', 'id': 1, 'tool': 'manager', 'name': 'showers'}
+10 : showers manager confirmation received from 4 - 4 out of 14
+11 : showers manager confirmation received from 2 - 1 out of 14
+10 : showers manager confirmation received from 5 - 5 out of 14
+10 : showers manager confirmation received from 7 - 6 out of 14
+11 : showers manager confirmation received from 0 - 2 out of 14
+10 : showers manager confirmation received from 6 - 7 out of 14
+11 : showers manager confirmation received from 4 - 3 out of 14
+11 : showers manager confirmation received from 3 - 4 out of 14
+11 : showers manager confirmation received from 5 - 5 out of 14
+10 : showers manager confirmation received from 8 - 8 out of 14
+10 : showers manager confirmation received from 9 - 9 out of 14
+10 : showers manager confirmation received from 0 - 10 out of 14
+10 : showers manager confirmation received from 11 - 11 out of 14
+11 : showers manager confirmation received from 7 - 6 out of 14
+10 : showers manager confirmation received from 12 - 12 out of 14
+11 : showers manager confirmation received from 6 - 7 out of 14
+10 : showers manager confirmation received from 13 - 13 out of 14
+11 : showers manager confirmation received from 9 - 8 out of 14
+11 : showers manager confirmation received from 8 - 9 out of 14
+10 : showers manager confirmation received from 14 - 14 out of 14
+10 : >>Exiting showers 1
+11 : showers manager confirmation received from 1 - 10 out of 14
+11 : showers manager confirmation received from 12 - 11 out of 14
+11 : showers manager confirmation received from 13 - 12 out of 14
+11 : showers manager confirmation received from 14 - 13 out of 14
+11 : showers manager confirmation received from 10 - 14 out of 14
+11 : >>Entering showers 1
+11 : >>Exiting showers queue section
+11 :  Sending confirms to: [12, 13]
+12 : showers queue confirmation received from 11 - 14 out of 14
+13 : showers queue confirmation received from 11 - 13 out of 14
+12 : >>Entering showers queue section
+12 : Requesting showers
+12 : Waiting for showers free
+14 : showers queue confirmation received from 1 - 1 out of 14
+14 : showers queue confirmation received from 2 - 2 out of 14
+14 : Request sent {'name': 'showers', 'tool': 'queue', 'cmd': 'request', 'rank': 14}
+14 : showers queue confirmation received from 0 - 3 out of 14
+14 : showers queue confirmation received from 4 - 4 out of 14
+14 : showers queue confirmation received from 5 - 5 out of 14
+14 : showers queue confirmation received from 7 - 6 out of 14
+14 : showers queue confirmation received from 10 - 7 out of 14
+14 : showers queue confirmation received from 6 - 8 out of 14
+14 : showers queue confirmation received from 9 - 9 out of 14
+14 : showers queue confirmation received from 11 - 10 out of 14
+14 : showers queue confirmation received from 3 - 11 out of 14
+14 : showers queue confirmation received from 8 - 12 out of 14
+9 : Request sent {'id': 1, 'rank': 9, 'state': 'exiting', 'name': 'lockers', 'cmd': 'request', 'type': 'M', 'tool': 'manager'}
+9 : lockers manager confirmation received from 0 - 1 out of 14
+9 : lockers manager confirmation received from 1 - 2 out of 14
+9 : lockers manager confirmation received from 2 - 3 out of 14
+9 : lockers manager confirmation received from 5 - 4 out of 14
+9 : lockers manager confirmation received from 7 - 5 out of 14
+9 : lockers manager confirmation received from 6 - 6 out of 14
+9 : lockers manager confirmation received from 10 - 7 out of 14
+9 : lockers manager confirmation received from 11 - 8 out of 14
+9 : lockers manager confirmation received from 12 - 9 out of 14
+9 : lockers manager confirmation received from 8 - 10 out of 14
+9 : lockers manager confirmation received from 13 - 11 out of 14
+9 : lockers manager confirmation received from 14 - 12 out of 14
+9 : lockers manager confirmation received from 4 - 13 out of 14
+9 : lockers manager confirmation received from 3 - 14 out of 14
+9 : >>Exiting lockers 1
+11 : showers manager confirmation received from 0 - 1 out of 14
+11 : showers manager confirmation received from 1 - 2 out of 14
+12 : Requesting showers
+12 : Waiting for showers confirm
+11 : Request sent {'cmd': 'request', 'type': 'F', 'rank': 11, 'state': 'exiting', 'id': 1, 'tool': 'manager', 'name': 'showers'}
+11 : showers manager confirmation received from 2 - 3 out of 14
+11 : showers manager confirmation received from 3 - 4 out of 14
+12 : Request sent {'type': 'M', 'rank': 12, 'cmd': 'request', 'name': 'showers', 'state': 'entering', 'id': 1, 'tool': 'manager'}
+11 : showers manager confirmation received from 4 - 5 out of 14
+12 : showers manager confirmation received from 1 - 1 out of 14
+11 : showers manager confirmation received from 6 - 6 out of 14
+12 : showers manager confirmation received from 0 - 2 out of 14
+11 : showers manager confirmation received from 7 - 7 out of 14
+10 : Request sent {'type': 'M', 'tool': 'manager', 'id': 0, 'name': 'lockers', 'rank': 10, 'cmd': 'request', 'state': 'exiting'}
+12 : showers manager confirmation received from 4 - 3 out of 14
+11 : showers manager confirmation received from 8 - 8 out of 14
+10 : lockers manager confirmation received from 4 - 1 out of 14
+12 : showers manager confirmation received from 7 - 4 out of 14
+11 : showers manager confirmation received from 9 - 9 out of 14
+12 : showers manager confirmation received from 6 - 5 out of 14
+12 : showers manager confirmation received from 9 - 6 out of 14
+12 : showers manager confirmation received from 8 - 7 out of 14
+10 : lockers manager confirmation received from 5 - 2 out of 14
+10 : lockers manager confirmation received from 6 - 3 out of 14
+11 : showers manager confirmation received from 10 - 10 out of 14
+11 : showers manager confirmation received from 12 - 11 out of 14
+11 : showers manager confirmation received from 13 - 12 out of 14
+10 : lockers manager confirmation received from 7 - 4 out of 14
+11 : showers manager confirmation received from 14 - 13 out of 14
+12 : showers manager confirmation received from 13 - 8 out of 14
+10 : lockers manager confirmation received from 9 - 5 out of 14
+12 : showers manager confirmation received from 5 - 9 out of 14
+11 : showers manager confirmation received from 5 - 14 out of 14
+10 : lockers manager confirmation received from 0 - 6 out of 14
+11 : >>Exiting showers 1
+12 : showers manager confirmation received from 14 - 10 out of 14
+10 : lockers manager confirmation received from 8 - 7 out of 14
+12 : showers manager confirmation received from 2 - 11 out of 14
+10 : lockers manager confirmation received from 13 - 8 out of 14
+10 : lockers manager confirmation received from 2 - 9 out of 14
+10 : lockers manager confirmation received from 14 - 10 out of 14
+12 : showers manager confirmation received from 3 - 12 out of 14
+10 : lockers manager confirmation received from 1 - 11 out of 14
+12 : showers manager confirmation received from 10 - 13 out of 14
+10 : lockers manager confirmation received from 12 - 12 out of 14
+10 : lockers manager confirmation received from 3 - 13 out of 14
+12 : showers manager confirmation received from 11 - 14 out of 14
+12 : >>Entering showers 1
+12 : >>Exiting showers queue section
+10 : lockers manager confirmation received from 11 - 14 out of 14
+10 : >>Exiting lockers 0
+12 :  Sending confirms to: [13, 14]
+13 : showers queue confirmation received from 12 - 14 out of 14
+13 : >>Entering showers queue section
+13 : Requesting showers
+13 : Waiting for showers confirm
+13 : Request sent {'cmd': 'request', 'rank': 13, 'tool': 'manager', 'id': 1, 'state': 'entering', 'name': 'showers', 'type': 'M'}
+13 : showers manager confirmation received from 1 - 1 out of 14
+13 : showers manager confirmation received from 0 - 2 out of 14
+13 : showers manager confirmation received from 2 - 3 out of 14
+13 : showers manager confirmation received from 3 - 4 out of 14
+13 : showers manager confirmation received from 5 - 5 out of 14
+13 : showers manager confirmation received from 4 - 6 out of 14
+13 : showers manager confirmation received from 6 - 7 out of 14
+13 : showers manager confirmation received from 8 - 8 out of 14
+13 : showers manager confirmation received from 11 - 9 out of 14
+13 : showers manager confirmation received from 9 - 10 out of 14
+13 : showers manager confirmation received from 7 - 11 out of 14
+14 : showers queue confirmation received from 12 - 13 out of 14
+13 : showers manager confirmation received from 14 - 12 out of 14
+13 : showers manager confirmation received from 12 - 13 out of 14
+13 : showers manager confirmation received from 10 - 14 out of 14
+13 : >>Entering showers 1
+13 : >>Exiting showers queue section
+13 :  Sending confirms to: [14]
+14 : showers queue confirmation received from 13 - 14 out of 14
+14 : >>Entering showers queue section
+14 : Requesting showers
+14 : Waiting for showers free
+12 : showers manager confirmation received from 2 - 1 out of 14
+12 : Request sent {'type': 'M', 'rank': 12, 'cmd': 'request', 'name': 'showers', 'state': 'exiting', 'id': 1, 'tool': 'manager'}
+14 : Requesting showers
+12 : showers manager confirmation received from 0 - 2 out of 14
+14 : Waiting for showers free
+12 : showers manager confirmation received from 3 - 3 out of 14
+12 : showers manager confirmation received from 4 - 4 out of 14
+12 : showers manager confirmation received from 5 - 5 out of 14
+12 : showers manager confirmation received from 7 - 6 out of 14
+12 : showers manager confirmation received from 6 - 7 out of 14
+12 : showers manager confirmation received from 9 - 8 out of 14
+12 : showers manager confirmation received from 11 - 9 out of 14
+12 : showers manager confirmation received from 8 - 10 out of 14
+12 : showers manager confirmation received from 13 - 11 out of 14
+12 : showers manager confirmation received from 14 - 12 out of 14
+12 : showers manager confirmation received from 10 - 13 out of 14
+12 : showers manager confirmation received from 1 - 14 out of 14
+12 : >>Exiting showers 1
+11 : Request sent {'cmd': 'request', 'type': 'F', 'rank': 11, 'state': 'exiting', 'id': 2, 'tool': 'manager', 'name': 'lockers'}
+11 : lockers manager confirmation received from 0 - 1 out of 14
+11 : lockers manager confirmation received from 1 - 2 out of 14
+11 : lockers manager confirmation received from 2 - 3 out of 14
+11 : lockers manager confirmation received from 3 - 4 out of 14
+11 : lockers manager confirmation received from 4 - 5 out of 14
+11 : lockers manager confirmation received from 5 - 6 out of 14
+11 : lockers manager confirmation received from 6 - 7 out of 14
+11 : lockers manager confirmation received from 7 - 8 out of 14
+11 : lockers manager confirmation received from 10 - 9 out of 14
+11 : lockers manager confirmation received from 9 - 10 out of 14
+11 : lockers manager confirmation received from 8 - 11 out of 14
+11 : lockers manager confirmation received from 12 - 12 out of 14
+11 : lockers manager confirmation received from 13 - 13 out of 14
+11 : lockers manager confirmation received from 14 - 14 out of 14
+11 : >>Exiting lockers 2
+13 : Request sent {'cmd': 'request', 'rank': 13, 'tool': 'manager', 'id': 1, 'state': 'exiting', 'name': 'showers', 'type': 'M'}
+14 : Requesting showers
+14 : Waiting for showers confirm
+13 : showers manager confirmation received from 0 - 1 out of 14
+14 : Request sent {'name': 'showers', 'id': 1, 'rank': 14, 'state': 'entering', 'cmd': 'request', 'type': 'F', 'tool': 'manager'}
+13 : showers manager confirmation received from 1 - 2 out of 14
+14 : showers manager confirmation received from 1 - 1 out of 14
+13 : showers manager confirmation received from 2 - 3 out of 14
+14 : showers manager confirmation received from 2 - 2 out of 14
+14 : showers manager confirmation received from 0 - 3 out of 14
+13 : showers manager confirmation received from 3 - 4 out of 14
+14 : showers manager confirmation received from 4 - 4 out of 14
+13 : showers manager confirmation received from 4 - 5 out of 14
+14 : showers manager confirmation received from 5 - 5 out of 14
+13 : showers manager confirmation received from 5 - 6 out of 14
+14 : showers manager confirmation received from 6 - 6 out of 14
+13 : showers manager confirmation received from 6 - 7 out of 14
+14 : showers manager confirmation received from 9 - 7 out of 14
+13 : showers manager confirmation received from 9 - 8 out of 14
+14 : showers manager confirmation received from 8 - 8 out of 14
+13 : showers manager confirmation received from 8 - 9 out of 14
+14 : showers manager confirmation received from 10 - 9 out of 14
+14 : showers manager confirmation received from 12 - 10 out of 14
+13 : showers manager confirmation received from 10 - 10 out of 14
+14 : showers manager confirmation received from 7 - 11 out of 14
+13 : showers manager confirmation received from 12 - 11 out of 14
+13 : showers manager confirmation received from 14 - 12 out of 14
+13 : showers manager confirmation received from 7 - 13 out of 14
+14 : showers manager confirmation received from 13 - 12 out of 14
+14 : showers manager confirmation received from 3 - 13 out of 14
+13 : showers manager confirmation received from 11 - 14 out of 14
+13 : >>Exiting showers 1
+14 : showers manager confirmation received from 11 - 14 out of 14
+14 : >>Entering showers 1
+14 : >>Exiting showers queue section
+14 :  Sending confirms to: []
+12 : Request sent {'type': 'M', 'rank': 12, 'cmd': 'request', 'name': 'lockers', 'state': 'exiting', 'id': 0, 'tool': 'manager'}
+12 : lockers manager confirmation received from 0 - 1 out of 14
+12 : lockers manager confirmation received from 1 - 2 out of 14
+12 : lockers manager confirmation received from 2 - 3 out of 14
+12 : lockers manager confirmation received from 4 - 4 out of 14
+12 : lockers manager confirmation received from 7 - 5 out of 14
+12 : lockers manager confirmation received from 8 - 6 out of 14
+12 : lockers manager confirmation received from 6 - 7 out of 14
+12 : lockers manager confirmation received from 10 - 8 out of 14
+12 : lockers manager confirmation received from 11 - 9 out of 14
+12 : lockers manager confirmation received from 9 - 10 out of 14
+12 : lockers manager confirmation received from 13 - 11 out of 14
+12 : lockers manager confirmation received from 14 - 12 out of 14
+12 : lockers manager confirmation received from 3 - 13 out of 14
+12 : lockers manager confirmation received from 5 - 14 out of 14
+12 : >>Exiting lockers 0
+14 : showers manager confirmation received from 0 - 1 out of 14
+14 : Request sent {'name': 'showers', 'id': 1, 'rank': 14, 'state': 'exiting', 'cmd': 'request', 'type': 'F', 'tool': 'manager'}
+14 : showers manager confirmation received from 1 - 2 out of 14
+14 : showers manager confirmation received from 2 - 3 out of 14
+14 : showers manager confirmation received from 4 - 4 out of 14
+14 : showers manager confirmation received from 6 - 5 out of 14
+14 : showers manager confirmation received from 7 - 6 out of 14
+14 : showers manager confirmation received from 8 - 7 out of 14
+14 : showers manager confirmation received from 9 - 8 out of 14
+14 : showers manager confirmation received from 5 - 9 out of 14
+14 : showers manager confirmation received from 10 - 10 out of 14
+14 : showers manager confirmation received from 12 - 11 out of 14
+14 : showers manager confirmation received from 13 - 12 out of 14
+14 : showers manager confirmation received from 3 - 13 out of 14
+14 : showers manager confirmation received from 11 - 14 out of 14
+14 : >>Exiting showers 1
+13 : Request sent {'cmd': 'request', 'rank': 13, 'tool': 'manager', 'id': 0, 'state': 'exiting', 'name': 'lockers', 'type': 'M'}
+13 : lockers manager confirmation received from 0 - 1 out of 14
+13 : lockers manager confirmation received from 1 - 2 out of 14
+13 : lockers manager confirmation received from 2 - 3 out of 14
+13 : lockers manager confirmation received from 3 - 4 out of 14
+13 : lockers manager confirmation received from 4 - 5 out of 14
+13 : lockers manager confirmation received from 6 - 6 out of 14
+13 : lockers manager confirmation received from 5 - 7 out of 14
+13 : lockers manager confirmation received from 8 - 8 out of 14
+13 : lockers manager confirmation received from 9 - 9 out of 14
+13 : lockers manager confirmation received from 10 - 10 out of 14
+13 : lockers manager confirmation received from 11 - 11 out of 14
+13 : lockers manager confirmation received from 12 - 12 out of 14
+13 : lockers manager confirmation received from 7 - 13 out of 14
+13 : lockers manager confirmation received from 14 - 14 out of 14
+13 : >>Exiting lockers 0
+14 : lockers manager confirmation received from 1 - 1 out of 14
+14 : Request sent {'name': 'lockers', 'id': 2, 'rank': 14, 'state': 'exiting', 'cmd': 'request', 'type': 'F', 'tool': 'manager'}
+14 : lockers manager confirmation received from 0 - 2 out of 14
+14 : lockers manager confirmation received from 3 - 3 out of 14
+14 : lockers manager confirmation received from 2 - 4 out of 14
+14 : lockers manager confirmation received from 4 - 5 out of 14
+14 : lockers manager confirmation received from 7 - 6 out of 14
+14 : lockers manager confirmation received from 10 - 7 out of 14
+14 : lockers manager confirmation received from 6 - 8 out of 14
+14 : lockers manager confirmation received from 9 - 9 out of 14
+14 : lockers manager confirmation received from 12 - 10 out of 14
+14 : lockers manager confirmation received from 13 - 11 out of 14
+14 : lockers manager confirmation received from 11 - 12 out of 14
+14 : lockers manager confirmation received from 5 - 13 out of 14
+14 : lockers manager confirmation received from 8 - 14 out of 14
+14 : >>Exiting lockers 2

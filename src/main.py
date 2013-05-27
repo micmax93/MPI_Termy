@@ -5,11 +5,17 @@ from shower_monitor import *
 
 
 def job_done():
+    """
+    Informs process about finished task loop
+    """
     data = {'cmd': 'job_done', 'rank': mpi_rank(), 'name': mpi_rank()}
     mpi_send(mpi_rank(), data)
 
 
 def job_finished():
+    """
+    Informs all processes in "world" about finishing all loops
+    """
     data = {'cmd': 'job_done', 'rank': mpi_rank(), 'name': mpi_rank()}
     mpi_bcast(data)
 
@@ -19,22 +25,31 @@ if __name__ == '__main__':
     mpi_barrier()
     q = {}
 
-    gender = GENDER_MALE
-    q['lockers'] = AccessController('lockers', gender, LockersMonitor())
-    q['showers'] = AccessController('showers', gender, ShowerMonitor())
+    gender = get_rand_gender()  # Przypisanie płci do procesu
+    q['lockers'] = AccessController('lockers', gender, LockersMonitor())  # Kolejka odpowiedzialna za szatnie
+    q['showers'] = AccessController('showers', gender, ShowerMonitor())  # Kolejka odpowiedzialna za natrysk
 
-    LOCKER_DELAY = 0.2
-    SHOWER_DELAY = 0.3
-    POOL_DELAY = 0.5
+    LOCKER_DELAY = 0.3 #get_rand_timeout(LOCKER_TIMEOUT)  # Czas spędzony w szatni
+    SHOWER_DELAY = 0.3 #get_rand_timeout(SHOWER_TIMEOUT)  # Czas spędzony pod natryskiem
+    POOL_DELAY = 0.3 #get_rand_timeout(POOL_TIMEOUT)  # Czas spędzony w basenie
+
+    # Po uzyskaniu dostępu do szatni, proces dokona próby wejścia pod natrysk
     q['lockers'].set_access_func(LOCKER_DELAY, q['showers'].enter)
+
+    # Po wejściu pod natrysk i odczekaniu, proces wyjdzie z pod natrysku
     q['showers'].set_access_func(SHOWER_DELAY, q['showers'].exit)
+
+    # Po wyjściu z pod natrysku proces wykonuje timeout, który odzwierciedla czas spędzony na basenie
+    # Po wyjściu z basenu następuje wywołanie wyjścia z szatni
     q['showers'].set_exit_func(POOL_DELAY, q['lockers'].exit)
+
+    # Po wyjściu z szatni proces informuje o wykonaniu zadania
     q['lockers'].set_exit_func(0, job_done)
 
     loops = 1
     finished = 0
 
-    q['lockers'].enter()
+    q['lockers'].enter()  #Powiadomienie o chęci wejścia do szatni
 
     while True:
         data = mpi_recv()
@@ -47,10 +62,12 @@ if __name__ == '__main__':
             q[name].on_confirmation(data['rank'], data)
 
         elif data['cmd'] == 'job_done':
-            if data['rank'] == mpi_rank():
+            if loops == -1:
+                q['lockers'].enter()
+            elif data['rank'] == mpi_rank():
                 loops -= 1
                 if loops > 0:
-                    q['entry'].send_request()
+                    q['lockers'].enter()
                 else:
                     finished += 1
                     job_finished()
