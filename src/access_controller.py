@@ -42,8 +42,6 @@ class AccessController:
     def on_confirmation(self, sender, data):  #zdarzenie otrzymania potwierdzenia
         if data['tool'] == 'queue':
             self.queue.on_confirmation(sender)
-        elif data['tool'] == 'manager':
-            self.manager.on_confirmation(sender)
 
     def on_request(self, sender, data):  #zdarzenie otrzymania żądania
         if data['tool'] == 'queue':

@@ -54,11 +54,8 @@ class AccessManager():  #klasa odpowiedzialna za rozgłaszanie informacji o zaso
         self.confirmations_tab = [False] * mpi_count()
         mpi_bcast(data)
         say("Request sent ", data)
-
-    def send_confirmation(self, target):  #wysłanie potwierdzenia
-        data = self.mk_msg('allowed')
-        mpi_send(target, data)
-        #say("Confirmation sent to ", target)
+        self.state = 'active'
+        self.critical_section()
 
     def critical_section(self):  #kod wykonywany w momencie uzyskania kompletu potwierdzeń
         #kod sekcji krytycznej
@@ -76,19 +73,7 @@ class AccessManager():  #klasa odpowiedzialna za rozgłaszanie informacji o zaso
             #mpi_send(mpi_rank(), self.mk_msg('job_done'))
         self.state = 'idle'
 
-    def on_confirmation(self, sender):  #zdarzenie otrzymania potwierdzenia
-        if self.state == 'waiting':
-            if not self.confirmations_tab[sender]:
-                self.confirmations_num += 1
-                self.confirmations_tab[sender] = True
-            say(self.name," manager confirmation received from ", sender, " - ", self.confirmations_num, ' out of ', mpi_count() - 1)
-            if self.confirmations_num == mpi_count() - 1:
-                self.state = 'active'
-                self.critical_section()
-
     def on_request(self, sender, data):  #zdarzenie otrzymania informacji o zmianie w zasobie
-        self.send_confirmation(sender)
-        #say("Received request from ", sender)
         op = data['state']
         if op == 'entering':
             self.monitor.get_in(data['id'], data['type'])
