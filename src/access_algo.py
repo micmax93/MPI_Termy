@@ -2,7 +2,7 @@ from my_mpi import *
 from utils import *
 
 
-class AccessQueue:  # Kolejka oparta o algorytm Lamporta
+class AccessAlgo:  # Kolejka oparta o algorytm Lamporta
     my_state = 'idle'
     confirmations_num = 0
     confirmations_tab = [False] * mpi_count()

@@ -1,5 +1,5 @@
 from access_manager import *
-from access_queue import *
+from access_algo import *
 
 
 class AccessController:
@@ -11,14 +11,14 @@ class AccessController:
     """
     def __init__(self, name, type, monitor):
         #utworzenie kolejki i managera
-        self.queue = AccessQueue(name)
+        self.queue = AccessAlgo(name)
         self.manager = AccessManager(name, type, monitor)
 
         #powiązanie sekcji krytycznej kolejki z żądaniem uzyskania zasobu
         self.queue.get_access_func = self.manager.get_in
 
         #zwolnienie sekcji krytycznej po uzyskaniu zasobu
-        self.manager.queue_free_func = self.queue.exit_critical
+        self.manager.free_critical_func = self.queue.exit_critical
 
 
     def set_access_func(self, delay, func):
@@ -40,11 +40,10 @@ class AccessController:
         self.manager.get_out()
 
     def on_confirmation(self, sender, data):  #zdarzenie otrzymania potwierdzenia
-        if data['tool'] == 'queue':
-            self.queue.on_confirmation(sender)
+        self.queue.on_confirmation(sender)
 
     def on_request(self, sender, data):  #zdarzenie otrzymania żądania
-        if data['tool'] == 'queue':
-            self.queue.on_request(sender, data)
-        elif data['tool'] == 'manager':
-            self.manager.on_request(sender, data)
+        self.queue.on_request(sender, data)
+
+    def on_update(self, sender, data):  #zdarzenie otrzymania żądania
+        self.manager.on_update(sender, data)

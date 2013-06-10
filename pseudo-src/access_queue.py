@@ -1,44 +1,39 @@
-class AccessQueue:  # Kolejka oparta o algorytm Lamporta
-    state = 'idle'
+class AccessAlgo:  # Algorytm uszeregowania dostępu do sekcji krytycznej
+    my_state = 'idle'
     confirmations_num = 0
-    confirmations_tab = [False] * mpi_count()
+    confirmations_tab[K] = [False]
     waiting_set = []
 
-
-    def send_request(self):
+    def send_request():
         #wysłanie żądania dostępu do sekcji krytycznej
-        self.state = 'waiting'
-        self.confirmations_num = 0
-        self.confirmations_tab = [False] * mpi_count()
-        mpi_bcast('request')
+        my_state = 'waiting'
+        confirmations_num = 0
+        confirmations_tab = [False]
+        bcast('request')
 
-    def send_confirmation(self, target):
+    def send_confirmation(target):
         #wysłanie zezwolenia na wejście do sekcji krytycznej
-        mpi_send(target, 'allowed')
+        send(target, ['allowed', my_id])
 
-    def exit_critical(self):
+    def exit_critical():
         #procedura opuszczenia sekcji krytycznej
-        self.state = 'idle'
-        for e in self.waiting_set:
-            self.send_confirmation(e)
-        self.waiting_set.clear()
+        my_state = 'idle'
+        for e in waiting_set:
+            send_confirmation(e)
+        waiting_set.clear()
 
-    def on_confirmation(self, sender):
+    def on_confirmation(sender):
         #zdarzenie otrzymania potwierdzenia
-        self.confirmations_num += 1
-        self.confirmations_tab[sender] = True
-        if self.confirmations_num == mpi_count() - 1:
-            self.state = 'active'
-            self.critical_section()
+        confirmations_num += 1
+        confirmations_tab[sender] = True
+        if confirmations_num == K - 1:
+            my_state = 'active'
+            critical_section()
 
-    def on_request(self, sender, data):
+    def on_request(sender, data):
 
         #zdarzenie otrzymania żądania dostępu)
-        if self.state == 'idle':
-            self.send_confirmation(sender)
-
-        elif self.state == 'waiting' and sender < mpi_rank() and not self.confirmations_tab[sender]:
-            self.send_confirmation(sender)
-
+        if my_state == 'idle' or (my_state == 'waiting' and sender < my_id):
+            send_confirmation(sender)
         else:
-            self.waiting_set.append(sender)
+            waiting_set.append(sender)

@@ -25,7 +25,7 @@ class AccessController:
 
     def enter(self):
         #zgłoszenie zamiaru uzyskania zasobu
-        self.queue.send_request()
+        self.queue.send_update()
 
     def exit(self):
         #zwolnienie zasobu

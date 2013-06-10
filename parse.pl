@@ -7,8 +7,9 @@ $proc = $ARGV[1];
 
 foreach(@lista)
 {
-	if($_ =~ /^$proc/)
 #	if($_ =~ /confirms to/)
+#	if($_ =~ /delayed/)
+	if($_ =~ /^$proc/)
 	{
 		print $_;
 	}

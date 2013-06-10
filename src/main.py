@@ -29,9 +29,9 @@ if __name__ == '__main__':
     q['lockers'] = AccessController('lockers', gender, LockersMonitor())  # Kolejka odpowiedzialna za szatnie
     q['showers'] = AccessController('showers', gender, ShowerMonitor())  # Kolejka odpowiedzialna za natrysk
 
-    LOCKER_DELAY = 0.3 #get_rand_timeout(LOCKER_TIMEOUT)  # Czas spędzony w szatni
-    SHOWER_DELAY = 0.3 #get_rand_timeout(SHOWER_TIMEOUT)  # Czas spędzony pod natryskiem
-    POOL_DELAY = 0.3 #get_rand_timeout(POOL_TIMEOUT)  # Czas spędzony w basenie
+    LOCKER_DELAY = get_rand_timeout(LOCKER_TIMEOUT)  # Czas spędzony w szatni
+    SHOWER_DELAY = get_rand_timeout(SHOWER_TIMEOUT)  # Czas spędzony pod natryskiem
+    POOL_DELAY = get_rand_timeout(POOL_TIMEOUT)  # Czas spędzony w basenie
 
     # Po uzyskaniu dostępu do szatni, proces dokona próby wejścia pod natrysk
     q['lockers'].set_access_func(LOCKER_DELAY, q['showers'].enter)
@@ -46,9 +46,10 @@ if __name__ == '__main__':
     # Po wyjściu z szatni proces informuje o wykonaniu zadania
     q['lockers'].set_exit_func(0, job_done)
 
+    # Ilość pętli jakie wykonuje każdy proces (-1) dla nieskonczoności
     loops = 1
-    finished = 0
 
+    finished = 0
     q['lockers'].enter()  #Powiadomienie o chęci wejścia do szatni
 
     while True:
@@ -60,6 +61,9 @@ if __name__ == '__main__':
 
         elif data['cmd'] == 'allowed':
             q[name].on_confirmation(data['rank'], data)
+
+        elif data['cmd'] == 'update':
+            q[name].on_update(data['rank'], data)
 
         elif data['cmd'] == 'job_done':
             if loops == -1:
