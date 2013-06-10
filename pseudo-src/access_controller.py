@@ -7,7 +7,7 @@ class AccessController:
     """
     def __init__(self, name, gender, monitor):
         #utworzenie kolejki i managera
-        self.queue = AccessQueue(name)
+        self.queue = AccessAlgo(name)
         self.manager = AccessManager(name, gender, monitor)
 
         #powiązanie sekcji krytycznej kolejki z żądaniem uzyskania zasobu
